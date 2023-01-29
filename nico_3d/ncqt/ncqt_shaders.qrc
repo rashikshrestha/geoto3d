@@ -1,0 +1,7 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource>
+   <file>shaders/cube.vert</file>
+   <file>shaders/cube.geom</file>
+   <file>shaders/cube.frag</file>
+</qresource>
+</RCC>

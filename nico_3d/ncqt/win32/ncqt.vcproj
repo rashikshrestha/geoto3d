@@ -1,0 +1,1736 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="9.00"
+	Name="ncqt"
+	ProjectGUID="{998480EF-30D1-4425-B9A4-C69526C955B0}"
+	Keyword="Win32Proj"
+	TargetFrameworkVersion="0"
+	>
+	<Platforms>
+		<Platform
+			Name="Win32"
+		/>
+	</Platforms>
+	<ToolFiles>
+	</ToolFiles>
+	<Configurations>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory="Debug"
+			IntermediateDirectory="ncqt.dir\Debug"
+			ConfigurationType="4"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="2"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+				AdditionalIncludeDirectories="D:\Work\external\qt-everywhere-opensource-src-4.8.0\include;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtOpenGL;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtGui;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtXml;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtNetwork;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtCore;&quot;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include&quot;;D:\Work\Projects\ncqt\..\..\external\glew-1.9.0\include;D:\Work\Projects\ncqt\..\..\external\ffmpeg\win32\include;D:\Work\Projects\ncqt\..\..\external\assimp--3.0.1270\include;D:\Work\Projects\ncqt\..\..\external\ImageMagick-6.8.8;D:\Work\Projects\ncqt\..\..\external\ImageMagick-6.8.8\Magick++\lib;D:\Work\Projects\ncqt\..\..\external\SketchUp-SDK-Win\headers;D:\Work\Projects\ncqt\..\..\external\libpgf\include;D:\Work\Projects\ncqt\..;D:\Work\Projects\ncqt\.;D:\Work\Projects\ncqt\.\inc;D:\Work\Projects\ncqt\.\include;D:\Work\Projects\ncqt\..\libpgf\include;D:\Work\Projects\ncqt\..\nccodec\inc;D:\Work\Projects\ncqt\..\nccommon\include;D:\Work\Projects\ncqt\..\ncqt\include;D:\Work\Projects\ncqt\..\ncqt\style\include;D:\Work\Projects\ncqt\..\ncvoxel\inc;D:\Work\Projects\ncqt\..\nccarve\inc;D:\Work\Projects\ncqt\..\ncflow\inc;D:\Work\Projects\ncqt\..\ncmodel\inc;"
+				MkTypLibCompatible="false"
+				TargetEnvironment="1"
+				GenerateStublessProxies="true"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"
+			/>
+			<Tool
+				Name="VCCLCompilerTool"
+				Optimization="0"
+				InlineFunctionExpansion="0"
+				AdditionalIncludeDirectories="D:\Work\external\qt-everywhere-opensource-src-4.8.0\include;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtOpenGL;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtGui;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtXml;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtNetwork;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtCore;&quot;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include&quot;;D:\Work\Projects\ncqt\..\..\external\glew-1.9.0\include;D:\Work\Projects\ncqt\..\..\external\ffmpeg\win32\include;D:\Work\Projects\ncqt\..\..\external\assimp--3.0.1270\include;D:\Work\Projects\ncqt\..\..\external\ImageMagick-6.8.8;D:\Work\Projects\ncqt\..\..\external\ImageMagick-6.8.8\Magick++\lib;D:\Work\Projects\ncqt\..\..\external\SketchUp-SDK-Win\headers;D:\Work\Projects\ncqt\..\..\external\libpgf\include;D:\Work\Projects\ncqt\..;D:\Work\Projects\ncqt\.;D:\Work\Projects\ncqt\.\inc;D:\Work\Projects\ncqt\.\include;D:\Work\Projects\ncqt\..\libpgf\include;D:\Work\Projects\ncqt\..\nccodec\inc;D:\Work\Projects\ncqt\..\nccommon\include;D:\Work\Projects\ncqt\..\ncqt\include;D:\Work\Projects\ncqt\..\ncqt\style\include;D:\Work\Projects\ncqt\..\ncvoxel\inc;D:\Work\Projects\ncqt\..\nccarve\inc;D:\Work\Projects\ncqt\..\ncflow\inc;D:\Work\Projects\ncqt\..\ncmodel\inc;"
+				PreprocessorDefinitions="GLEW_STATIC;STATIC_MAGICK;_MSC_VER=1500;WIN32;_WINDOWS;BOOST_ALL_NO_LIB;BOOST__STDC_CONSTANT_MACROS_DEFINED;__STDC_CONSTANT_MACROS;_DEBUG;QT_OPENGL_LIB;QT_GUI_LIB;QT_XML_LIB;QT_NETWORK_LIB;QT_CORE_LIB;QT_DEBUG;CMAKE_INTDIR=\&quot;Debug\&quot;"
+				ExceptionHandling="1"
+				BasicRuntimeChecks="3"
+				RuntimeLibrary="3"
+				AssemblerListingLocation="Debug"
+				ObjectFile="$(IntDir)\"
+				ProgramDataBaseFileName="H:\Work\Projects\ncqt\win32\lib\Debug/ncqt.pdb"
+				DebugInformationFormat="3"
+				CompileAs="2"
+			/>
+			<Tool
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="GLEW_STATIC;STATIC_MAGICK;_MSC_VER=1500;WIN32;_WINDOWS;BOOST_ALL_NO_LIB;BOOST__STDC_CONSTANT_MACROS_DEFINED;__STDC_CONSTANT_MACROS;_DEBUG;QT_OPENGL_LIB;QT_GUI_LIB;QT_XML_LIB;QT_NETWORK_LIB;QT_CORE_LIB;QT_DEBUG;CMAKE_INTDIR=\&quot;Debug\&quot;"
+				AdditionalIncludeDirectories="D:\Work\external\qt-everywhere-opensource-src-4.8.0\include;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtOpenGL;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtGui;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtXml;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtNetwork;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtCore;&quot;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include&quot;;D:\Work\Projects\ncqt\..\..\external\glew-1.9.0\include;D:\Work\Projects\ncqt\..\..\external\ffmpeg\win32\include;D:\Work\Projects\ncqt\..\..\external\assimp--3.0.1270\include;D:\Work\Projects\ncqt\..\..\external\ImageMagick-6.8.8;D:\Work\Projects\ncqt\..\..\external\ImageMagick-6.8.8\Magick++\lib;D:\Work\Projects\ncqt\..\..\external\SketchUp-SDK-Win\headers;D:\Work\Projects\ncqt\..\..\external\libpgf\include;D:\Work\Projects\ncqt\..;D:\Work\Projects\ncqt\.;D:\Work\Projects\ncqt\.\inc;D:\Work\Projects\ncqt\.\include;D:\Work\Projects\ncqt\..\libpgf\include;D:\Work\Projects\ncqt\..\nccodec\inc;D:\Work\Projects\ncqt\..\nccommon\include;D:\Work\Projects\ncqt\..\ncqt\include;D:\Work\Projects\ncqt\..\ncqt\style\include;D:\Work\Projects\ncqt\..\ncvoxel\inc;D:\Work\Projects\ncqt\..\nccarve\inc;D:\Work\Projects\ncqt\..\ncflow\inc;D:\Work\Projects\ncqt\..\ncmodel\inc;"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
+			<Tool
+				Name="VCLibrarianTool"
+				OutputFile="H:\Work\Projects\ncqt\win32\lib\Debug\ncqt.lib"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
+		</Configuration>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory="Release"
+			IntermediateDirectory="ncqt.dir\Release"
+			ConfigurationType="4"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="2"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+				AdditionalIncludeDirectories="D:\Work\external\qt-everywhere-opensource-src-4.8.0\include;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtOpenGL;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtGui;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtXml;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtNetwork;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtCore;&quot;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include&quot;;D:\Work\Projects\ncqt\..\..\external\glew-1.9.0\include;D:\Work\Projects\ncqt\..\..\external\ffmpeg\win32\include;D:\Work\Projects\ncqt\..\..\external\assimp--3.0.1270\include;D:\Work\Projects\ncqt\..\..\external\ImageMagick-6.8.8;D:\Work\Projects\ncqt\..\..\external\ImageMagick-6.8.8\Magick++\lib;D:\Work\Projects\ncqt\..\..\external\SketchUp-SDK-Win\headers;D:\Work\Projects\ncqt\..\..\external\libpgf\include;D:\Work\Projects\ncqt\..;D:\Work\Projects\ncqt\.;D:\Work\Projects\ncqt\.\inc;D:\Work\Projects\ncqt\.\include;D:\Work\Projects\ncqt\..\libpgf\include;D:\Work\Projects\ncqt\..\nccodec\inc;D:\Work\Projects\ncqt\..\nccommon\include;D:\Work\Projects\ncqt\..\ncqt\include;D:\Work\Projects\ncqt\..\ncqt\style\include;D:\Work\Projects\ncqt\..\ncvoxel\inc;D:\Work\Projects\ncqt\..\nccarve\inc;D:\Work\Projects\ncqt\..\ncflow\inc;D:\Work\Projects\ncqt\..\ncmodel\inc;"
+				MkTypLibCompatible="false"
+				TargetEnvironment="1"
+				GenerateStublessProxies="true"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"
+			/>
+			<Tool
+				Name="VCCLCompilerTool"
+				Optimization="2"
+				InlineFunctionExpansion="2"
+				AdditionalIncludeDirectories="D:\Work\external\qt-everywhere-opensource-src-4.8.0\include;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtOpenGL;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtGui;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtXml;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtNetwork;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtCore;&quot;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include&quot;;D:\Work\Projects\ncqt\..\..\external\glew-1.9.0\include;D:\Work\Projects\ncqt\..\..\external\ffmpeg\win32\include;D:\Work\Projects\ncqt\..\..\external\assimp--3.0.1270\include;D:\Work\Projects\ncqt\..\..\external\ImageMagick-6.8.8;D:\Work\Projects\ncqt\..\..\external\ImageMagick-6.8.8\Magick++\lib;D:\Work\Projects\ncqt\..\..\external\SketchUp-SDK-Win\headers;D:\Work\Projects\ncqt\..\..\external\libpgf\include;D:\Work\Projects\ncqt\..;D:\Work\Projects\ncqt\.;D:\Work\Projects\ncqt\.\inc;D:\Work\Projects\ncqt\.\include;D:\Work\Projects\ncqt\..\libpgf\include;D:\Work\Projects\ncqt\..\nccodec\inc;D:\Work\Projects\ncqt\..\nccommon\include;D:\Work\Projects\ncqt\..\ncqt\include;D:\Work\Projects\ncqt\..\ncqt\style\include;D:\Work\Projects\ncqt\..\ncvoxel\inc;D:\Work\Projects\ncqt\..\nccarve\inc;D:\Work\Projects\ncqt\..\ncflow\inc;D:\Work\Projects\ncqt\..\ncmodel\inc;"
+				PreprocessorDefinitions="GLEW_STATIC;STATIC_MAGICK;_MSC_VER=1500;WIN32;_WINDOWS;BOOST_ALL_NO_LIB;BOOST__STDC_CONSTANT_MACROS_DEFINED;__STDC_CONSTANT_MACROS;NDEBUG;QT_OPENGL_LIB;QT_GUI_LIB;QT_XML_LIB;QT_NETWORK_LIB;QT_CORE_LIB;QT_NO_DEBUG;CMAKE_INTDIR=\&quot;Release\&quot;"
+				ExceptionHandling="1"
+				RuntimeLibrary="2"
+				AssemblerListingLocation="Release"
+				ObjectFile="$(IntDir)\"
+				ProgramDataBaseFileName="H:\Work\Projects\ncqt\win32\lib\Release/ncqt.pdb"
+				CompileAs="2"
+			/>
+			<Tool
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="GLEW_STATIC;STATIC_MAGICK;_MSC_VER=1500;WIN32;_WINDOWS;BOOST_ALL_NO_LIB;BOOST__STDC_CONSTANT_MACROS_DEFINED;__STDC_CONSTANT_MACROS;NDEBUG;QT_OPENGL_LIB;QT_GUI_LIB;QT_XML_LIB;QT_NETWORK_LIB;QT_CORE_LIB;QT_NO_DEBUG;CMAKE_INTDIR=\&quot;Release\&quot;"
+				AdditionalIncludeDirectories="D:\Work\external\qt-everywhere-opensource-src-4.8.0\include;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtOpenGL;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtGui;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtXml;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtNetwork;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtCore;&quot;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include&quot;;D:\Work\Projects\ncqt\..\..\external\glew-1.9.0\include;D:\Work\Projects\ncqt\..\..\external\ffmpeg\win32\include;D:\Work\Projects\ncqt\..\..\external\assimp--3.0.1270\include;D:\Work\Projects\ncqt\..\..\external\ImageMagick-6.8.8;D:\Work\Projects\ncqt\..\..\external\ImageMagick-6.8.8\Magick++\lib;D:\Work\Projects\ncqt\..\..\external\SketchUp-SDK-Win\headers;D:\Work\Projects\ncqt\..\..\external\libpgf\include;D:\Work\Projects\ncqt\..;D:\Work\Projects\ncqt\.;D:\Work\Projects\ncqt\.\inc;D:\Work\Projects\ncqt\.\include;D:\Work\Projects\ncqt\..\libpgf\include;D:\Work\Projects\ncqt\..\nccodec\inc;D:\Work\Projects\ncqt\..\nccommon\include;D:\Work\Projects\ncqt\..\ncqt\include;D:\Work\Projects\ncqt\..\ncqt\style\include;D:\Work\Projects\ncqt\..\ncvoxel\inc;D:\Work\Projects\ncqt\..\nccarve\inc;D:\Work\Projects\ncqt\..\ncflow\inc;D:\Work\Projects\ncqt\..\ncmodel\inc;"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
+			<Tool
+				Name="VCLibrarianTool"
+				OutputFile="H:\Work\Projects\ncqt\win32\lib\Release\ncqt.lib"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
+		</Configuration>
+		<Configuration
+			Name="MinSizeRel|Win32"
+			OutputDirectory="MinSizeRel"
+			IntermediateDirectory="ncqt.dir\MinSizeRel"
+			ConfigurationType="4"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="2"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+				AdditionalIncludeDirectories="D:\Work\external\qt-everywhere-opensource-src-4.8.0\include;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtOpenGL;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtGui;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtXml;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtNetwork;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtCore;&quot;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include&quot;;D:\Work\Projects\ncqt\..\..\external\glew-1.9.0\include;D:\Work\Projects\ncqt\..\..\external\ffmpeg\win32\include;D:\Work\Projects\ncqt\..\..\external\assimp--3.0.1270\include;D:\Work\Projects\ncqt\..\..\external\ImageMagick-6.8.8;D:\Work\Projects\ncqt\..\..\external\ImageMagick-6.8.8\Magick++\lib;D:\Work\Projects\ncqt\..\..\external\SketchUp-SDK-Win\headers;D:\Work\Projects\ncqt\..\..\external\libpgf\include;D:\Work\Projects\ncqt\..;D:\Work\Projects\ncqt\.;D:\Work\Projects\ncqt\.\inc;D:\Work\Projects\ncqt\.\include;D:\Work\Projects\ncqt\..\libpgf\include;D:\Work\Projects\ncqt\..\nccodec\inc;D:\Work\Projects\ncqt\..\nccommon\include;D:\Work\Projects\ncqt\..\ncqt\include;D:\Work\Projects\ncqt\..\ncqt\style\include;D:\Work\Projects\ncqt\..\ncvoxel\inc;D:\Work\Projects\ncqt\..\nccarve\inc;D:\Work\Projects\ncqt\..\ncflow\inc;D:\Work\Projects\ncqt\..\ncmodel\inc;"
+				MkTypLibCompatible="false"
+				TargetEnvironment="1"
+				GenerateStublessProxies="true"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"
+			/>
+			<Tool
+				Name="VCCLCompilerTool"
+				Optimization="1"
+				InlineFunctionExpansion="1"
+				AdditionalIncludeDirectories="D:\Work\external\qt-everywhere-opensource-src-4.8.0\include;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtOpenGL;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtGui;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtXml;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtNetwork;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtCore;&quot;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include&quot;;D:\Work\Projects\ncqt\..\..\external\glew-1.9.0\include;D:\Work\Projects\ncqt\..\..\external\ffmpeg\win32\include;D:\Work\Projects\ncqt\..\..\external\assimp--3.0.1270\include;D:\Work\Projects\ncqt\..\..\external\ImageMagick-6.8.8;D:\Work\Projects\ncqt\..\..\external\ImageMagick-6.8.8\Magick++\lib;D:\Work\Projects\ncqt\..\..\external\SketchUp-SDK-Win\headers;D:\Work\Projects\ncqt\..\..\external\libpgf\include;D:\Work\Projects\ncqt\..;D:\Work\Projects\ncqt\.;D:\Work\Projects\ncqt\.\inc;D:\Work\Projects\ncqt\.\include;D:\Work\Projects\ncqt\..\libpgf\include;D:\Work\Projects\ncqt\..\nccodec\inc;D:\Work\Projects\ncqt\..\nccommon\include;D:\Work\Projects\ncqt\..\ncqt\include;D:\Work\Projects\ncqt\..\ncqt\style\include;D:\Work\Projects\ncqt\..\ncvoxel\inc;D:\Work\Projects\ncqt\..\nccarve\inc;D:\Work\Projects\ncqt\..\ncflow\inc;D:\Work\Projects\ncqt\..\ncmodel\inc;"
+				PreprocessorDefinitions="GLEW_STATIC;STATIC_MAGICK;_MSC_VER=1500;WIN32;_WINDOWS;BOOST_ALL_NO_LIB;BOOST__STDC_CONSTANT_MACROS_DEFINED;__STDC_CONSTANT_MACROS;NDEBUG;QT_OPENGL_LIB;QT_GUI_LIB;QT_XML_LIB;QT_NETWORK_LIB;QT_CORE_LIB;QT_NO_DEBUG;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"
+				ExceptionHandling="1"
+				RuntimeLibrary="2"
+				AssemblerListingLocation="MinSizeRel"
+				ObjectFile="$(IntDir)\"
+				ProgramDataBaseFileName="H:\Work\Projects\ncqt\win32\lib\MinSizeRel/ncqt.pdb"
+				CompileAs="2"
+			/>
+			<Tool
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="GLEW_STATIC;STATIC_MAGICK;_MSC_VER=1500;WIN32;_WINDOWS;BOOST_ALL_NO_LIB;BOOST__STDC_CONSTANT_MACROS_DEFINED;__STDC_CONSTANT_MACROS;NDEBUG;QT_OPENGL_LIB;QT_GUI_LIB;QT_XML_LIB;QT_NETWORK_LIB;QT_CORE_LIB;QT_NO_DEBUG;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"
+				AdditionalIncludeDirectories="D:\Work\external\qt-everywhere-opensource-src-4.8.0\include;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtOpenGL;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtGui;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtXml;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtNetwork;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtCore;&quot;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include&quot;;D:\Work\Projects\ncqt\..\..\external\glew-1.9.0\include;D:\Work\Projects\ncqt\..\..\external\ffmpeg\win32\include;D:\Work\Projects\ncqt\..\..\external\assimp--3.0.1270\include;D:\Work\Projects\ncqt\..\..\external\ImageMagick-6.8.8;D:\Work\Projects\ncqt\..\..\external\ImageMagick-6.8.8\Magick++\lib;D:\Work\Projects\ncqt\..\..\external\SketchUp-SDK-Win\headers;D:\Work\Projects\ncqt\..\..\external\libpgf\include;D:\Work\Projects\ncqt\..;D:\Work\Projects\ncqt\.;D:\Work\Projects\ncqt\.\inc;D:\Work\Projects\ncqt\.\include;D:\Work\Projects\ncqt\..\libpgf\include;D:\Work\Projects\ncqt\..\nccodec\inc;D:\Work\Projects\ncqt\..\nccommon\include;D:\Work\Projects\ncqt\..\ncqt\include;D:\Work\Projects\ncqt\..\ncqt\style\include;D:\Work\Projects\ncqt\..\ncvoxel\inc;D:\Work\Projects\ncqt\..\nccarve\inc;D:\Work\Projects\ncqt\..\ncflow\inc;D:\Work\Projects\ncqt\..\ncmodel\inc;"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
+			<Tool
+				Name="VCLibrarianTool"
+				OutputFile="H:\Work\Projects\ncqt\win32\lib\MinSizeRel\ncqt.lib"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
+		</Configuration>
+		<Configuration
+			Name="RelWithDebInfo|Win32"
+			OutputDirectory="RelWithDebInfo"
+			IntermediateDirectory="ncqt.dir\RelWithDebInfo"
+			ConfigurationType="4"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="2"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+				AdditionalIncludeDirectories="D:\Work\external\qt-everywhere-opensource-src-4.8.0\include;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtOpenGL;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtGui;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtXml;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtNetwork;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtCore;&quot;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include&quot;;D:\Work\Projects\ncqt\..\..\external\glew-1.9.0\include;D:\Work\Projects\ncqt\..\..\external\ffmpeg\win32\include;D:\Work\Projects\ncqt\..\..\external\assimp--3.0.1270\include;D:\Work\Projects\ncqt\..\..\external\ImageMagick-6.8.8;D:\Work\Projects\ncqt\..\..\external\ImageMagick-6.8.8\Magick++\lib;D:\Work\Projects\ncqt\..\..\external\SketchUp-SDK-Win\headers;D:\Work\Projects\ncqt\..\..\external\libpgf\include;D:\Work\Projects\ncqt\..;D:\Work\Projects\ncqt\.;D:\Work\Projects\ncqt\.\inc;D:\Work\Projects\ncqt\.\include;D:\Work\Projects\ncqt\..\libpgf\include;D:\Work\Projects\ncqt\..\nccodec\inc;D:\Work\Projects\ncqt\..\nccommon\include;D:\Work\Projects\ncqt\..\ncqt\include;D:\Work\Projects\ncqt\..\ncqt\style\include;D:\Work\Projects\ncqt\..\ncvoxel\inc;D:\Work\Projects\ncqt\..\nccarve\inc;D:\Work\Projects\ncqt\..\ncflow\inc;D:\Work\Projects\ncqt\..\ncmodel\inc;"
+				MkTypLibCompatible="false"
+				TargetEnvironment="1"
+				GenerateStublessProxies="true"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"
+			/>
+			<Tool
+				Name="VCCLCompilerTool"
+				Optimization="2"
+				InlineFunctionExpansion="1"
+				AdditionalIncludeDirectories="D:\Work\external\qt-everywhere-opensource-src-4.8.0\include;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtOpenGL;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtGui;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtXml;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtNetwork;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtCore;&quot;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include&quot;;D:\Work\Projects\ncqt\..\..\external\glew-1.9.0\include;D:\Work\Projects\ncqt\..\..\external\ffmpeg\win32\include;D:\Work\Projects\ncqt\..\..\external\assimp--3.0.1270\include;D:\Work\Projects\ncqt\..\..\external\ImageMagick-6.8.8;D:\Work\Projects\ncqt\..\..\external\ImageMagick-6.8.8\Magick++\lib;D:\Work\Projects\ncqt\..\..\external\SketchUp-SDK-Win\headers;D:\Work\Projects\ncqt\..\..\external\libpgf\include;D:\Work\Projects\ncqt\..;D:\Work\Projects\ncqt\.;D:\Work\Projects\ncqt\.\inc;D:\Work\Projects\ncqt\.\include;D:\Work\Projects\ncqt\..\libpgf\include;D:\Work\Projects\ncqt\..\nccodec\inc;D:\Work\Projects\ncqt\..\nccommon\include;D:\Work\Projects\ncqt\..\ncqt\include;D:\Work\Projects\ncqt\..\ncqt\style\include;D:\Work\Projects\ncqt\..\ncvoxel\inc;D:\Work\Projects\ncqt\..\nccarve\inc;D:\Work\Projects\ncqt\..\ncflow\inc;D:\Work\Projects\ncqt\..\ncmodel\inc;"
+				PreprocessorDefinitions="GLEW_STATIC;STATIC_MAGICK;_MSC_VER=1500;WIN32;_WINDOWS;BOOST_ALL_NO_LIB;BOOST__STDC_CONSTANT_MACROS_DEFINED;__STDC_CONSTANT_MACROS;NDEBUG;QT_OPENGL_LIB;QT_GUI_LIB;QT_XML_LIB;QT_NETWORK_LIB;QT_CORE_LIB;QT_NO_DEBUG;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"
+				ExceptionHandling="1"
+				RuntimeLibrary="2"
+				AssemblerListingLocation="RelWithDebInfo"
+				ObjectFile="$(IntDir)\"
+				ProgramDataBaseFileName="H:\Work\Projects\ncqt\win32\lib\RelWithDebInfo/ncqt.pdb"
+				DebugInformationFormat="3"
+				CompileAs="2"
+			/>
+			<Tool
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="GLEW_STATIC;STATIC_MAGICK;_MSC_VER=1500;WIN32;_WINDOWS;BOOST_ALL_NO_LIB;BOOST__STDC_CONSTANT_MACROS_DEFINED;__STDC_CONSTANT_MACROS;NDEBUG;QT_OPENGL_LIB;QT_GUI_LIB;QT_XML_LIB;QT_NETWORK_LIB;QT_CORE_LIB;QT_NO_DEBUG;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"
+				AdditionalIncludeDirectories="D:\Work\external\qt-everywhere-opensource-src-4.8.0\include;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtOpenGL;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtGui;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtXml;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtNetwork;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtCore;&quot;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include&quot;;D:\Work\Projects\ncqt\..\..\external\glew-1.9.0\include;D:\Work\Projects\ncqt\..\..\external\ffmpeg\win32\include;D:\Work\Projects\ncqt\..\..\external\assimp--3.0.1270\include;D:\Work\Projects\ncqt\..\..\external\ImageMagick-6.8.8;D:\Work\Projects\ncqt\..\..\external\ImageMagick-6.8.8\Magick++\lib;D:\Work\Projects\ncqt\..\..\external\SketchUp-SDK-Win\headers;D:\Work\Projects\ncqt\..\..\external\libpgf\include;D:\Work\Projects\ncqt\..;D:\Work\Projects\ncqt\.;D:\Work\Projects\ncqt\.\inc;D:\Work\Projects\ncqt\.\include;D:\Work\Projects\ncqt\..\libpgf\include;D:\Work\Projects\ncqt\..\nccodec\inc;D:\Work\Projects\ncqt\..\nccommon\include;D:\Work\Projects\ncqt\..\ncqt\include;D:\Work\Projects\ncqt\..\ncqt\style\include;D:\Work\Projects\ncqt\..\ncvoxel\inc;D:\Work\Projects\ncqt\..\nccarve\inc;D:\Work\Projects\ncqt\..\ncflow\inc;D:\Work\Projects\ncqt\..\ncmodel\inc;"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
+			<Tool
+				Name="VCLibrarianTool"
+				OutputFile="H:\Work\Projects\ncqt\win32\lib\RelWithDebInfo\ncqt.lib"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
+		</Configuration>
+	</Configurations>
+	<References>
+	</References>
+	<Files>
+		<Filter
+			Name="Source Files"
+			>
+			<File
+				RelativePath="H:\Work\Projects\ncqt\win32\include\moc_ncqt.cxx"
+				>
+			</File>
+			<File
+				RelativePath="H:\Work\Projects\ncqt\win32\include\moc_ncqtabout.cxx"
+				>
+			</File>
+			<File
+				RelativePath="H:\Work\Projects\ncqt\win32\include\moc_ncqtcamera.cxx"
+				>
+			</File>
+			<File
+				RelativePath="H:\Work\Projects\ncqt\win32\include\moc_ncqtconfig.cxx"
+				>
+			</File>
+			<File
+				RelativePath="H:\Work\Projects\ncqt\win32\include\moc_ncqtconfigmanager.cxx"
+				>
+			</File>
+			<File
+				RelativePath="H:\Work\Projects\ncqt\win32\include\moc_ncqtdock.cxx"
+				>
+			</File>
+			<File
+				RelativePath="H:\Work\Projects\ncqt\win32\include\moc_ncqtdoubleslidercombo.cxx"
+				>
+			</File>
+			<File
+				RelativePath="H:\Work\Projects\ncqt\win32\include\moc_ncqtdoublespinbox.cxx"
+				>
+			</File>
+			<File
+				RelativePath="H:\Work\Projects\ncqt\win32\include\moc_ncqtglwidget.cxx"
+				>
+			</File>
+			<File
+				RelativePath="H:\Work\Projects\ncqt\win32\include\moc_ncqtintspinbox.cxx"
+				>
+			</File>
+			<File
+				RelativePath="H:\Work\Projects\ncqt\win32\include\moc_ncqtlogger.cxx"
+				>
+			</File>
+			<File
+				RelativePath="H:\Work\Projects\ncqt\win32\include\moc_ncqtmainwindow.cxx"
+				>
+			</File>
+			<File
+				RelativePath="H:\Work\Projects\ncqt\win32\include\moc_ncqtmultibar.cxx"
+				>
+			</File>
+			<File
+				RelativePath="H:\Work\Projects\ncqt\win32\include\moc_ncqtprogram.cxx"
+				>
+			</File>
+			<File
+				RelativePath="H:\Work\Projects\ncqt\win32\include\moc_ncqtprogressbar.cxx"
+				>
+			</File>
+			<File
+				RelativePath="H:\Work\Projects\ncqt\win32\include\moc_ncqtscenix.cxx"
+				>
+			</File>
+			<File
+				RelativePath="H:\Work\Projects\ncqt\win32\include\moc_ncqtsignalhandler.cxx"
+				>
+			</File>
+			<File
+				RelativePath="H:\Work\Projects\ncqt\win32\include\moc_ncqtvideo.cxx"
+				>
+			</File>
+			<File
+				RelativePath="H:\Work\Projects\ncqt\win32\include\moc_ncqtxymessenger.cxx"
+				>
+			</File>
+			<File
+				RelativePath="H:\Work\Projects\ncqt\win32\include\moc_ply.cxx"
+				>
+			</File>
+			<File
+				RelativePath="D:\Work\Projects\ncqt\src\ncqt.cpp"
+				>
+			</File>
+			<File
+				RelativePath="D:\Work\Projects\ncqt\src\ncqtabout.cpp"
+				>
+			</File>
+			<File
+				RelativePath="D:\Work\Projects\ncqt\src\ncqtcamera.cpp"
+				>
+			</File>
+			<File
+				RelativePath="D:\Work\Projects\ncqt\src\ncqtconfig.cpp"
+				>
+			</File>
+			<File
+				RelativePath="D:\Work\Projects\ncqt\src\ncqtconfigmanager.cpp"
+				>
+			</File>
+			<File
+				RelativePath="D:\Work\Projects\ncqt\src\ncqtdock.cpp"
+				>
+			</File>
+			<File
+				RelativePath="D:\Work\Projects\ncqt\src\ncqtdoubleslidercombo.cpp"
+				>
+			</File>
+			<File
+				RelativePath="D:\Work\Projects\ncqt\src\ncqtdoublespinbox.cpp"
+				>
+			</File>
+			<File
+				RelativePath="D:\Work\Projects\ncqt\src\ncqtglwidget.cpp"
+				>
+			</File>
+			<File
+				RelativePath="D:\Work\Projects\ncqt\src\ncqtintspinbox.cpp"
+				>
+			</File>
+			<File
+				RelativePath="D:\Work\Projects\ncqt\src\ncqtlogger.cpp"
+				>
+			</File>
+			<File
+				RelativePath="D:\Work\Projects\ncqt\src\ncqtmainwindow.cpp"
+				>
+			</File>
+			<File
+				RelativePath="D:\Work\Projects\ncqt\src\ncqtmultibar.cpp"
+				>
+			</File>
+			<File
+				RelativePath="D:\Work\Projects\ncqt\src\ncqtprogram.cpp"
+				>
+			</File>
+			<File
+				RelativePath="D:\Work\Projects\ncqt\src\ncqtprogressbar.cpp"
+				>
+			</File>
+			<File
+				RelativePath="D:\Work\Projects\ncqt\src\ncqtscenix.cpp"
+				>
+			</File>
+			<File
+				RelativePath="D:\Work\Projects\ncqt\src\ncqtsignalhandler.cpp"
+				>
+			</File>
+			<File
+				RelativePath="D:\Work\Projects\ncqt\src\ncqtvideo.cpp"
+				>
+			</File>
+			<File
+				RelativePath="D:\Work\Projects\ncqt\src\ncqtxymessenger.cpp"
+				>
+			</File>
+			<File
+				RelativePath="D:\Work\Projects\ncqt\src\ply.c"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						CompileAs="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						CompileAs="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						CompileAs="1"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32"
+					>
+					<Tool
+						Name="VCCLCompilerTool"
+						CompileAs="1"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="H:\Work\Projects\ncqt\win32\qrc_icons.cxx"
+				>
+			</File>
+			<File
+				RelativePath="H:\Work\Projects\ncqt\win32\qrc_ncqt_shaders.cxx"
+				>
+			</File>
+		</Filter>
+		<Filter
+			Name="Header Files"
+			>
+			<File
+				RelativePath="D:\Work\Projects\ncqt\include\ncqt.h"
+				>
+			</File>
+			<File
+				RelativePath="D:\Work\Projects\ncqt\include\ncqtabout.h"
+				>
+			</File>
+			<File
+				RelativePath="D:\Work\Projects\ncqt\include\ncqtcamera.h"
+				>
+			</File>
+			<File
+				RelativePath="D:\Work\Projects\ncqt\include\ncqtconfig.h"
+				>
+			</File>
+			<File
+				RelativePath="D:\Work\Projects\ncqt\include\ncqtconfigmanager.h"
+				>
+			</File>
+			<File
+				RelativePath="D:\Work\Projects\ncqt\include\ncqtdock.h"
+				>
+			</File>
+			<File
+				RelativePath="D:\Work\Projects\ncqt\include\ncqtdoubleslidercombo.h"
+				>
+			</File>
+			<File
+				RelativePath="D:\Work\Projects\ncqt\include\ncqtdoublespinbox.h"
+				>
+			</File>
+			<File
+				RelativePath="D:\Work\Projects\ncqt\include\ncqtglwidget.h"
+				>
+			</File>
+			<File
+				RelativePath="D:\Work\Projects\ncqt\include\ncqtintspinbox.h"
+				>
+			</File>
+			<File
+				RelativePath="D:\Work\Projects\ncqt\include\ncqtlogger.h"
+				>
+			</File>
+			<File
+				RelativePath="D:\Work\Projects\ncqt\include\ncqtmainwindow.h"
+				>
+			</File>
+			<File
+				RelativePath="D:\Work\Projects\ncqt\include\ncqtmultibar.h"
+				>
+			</File>
+			<File
+				RelativePath="D:\Work\Projects\ncqt\include\ncqtprogram.h"
+				>
+			</File>
+			<File
+				RelativePath="D:\Work\Projects\ncqt\include\ncqtprogressbar.h"
+				>
+			</File>
+			<File
+				RelativePath="D:\Work\Projects\ncqt\include\ncqtscenix.h"
+				>
+			</File>
+			<File
+				RelativePath="D:\Work\Projects\ncqt\include\ncqtsignalhandler.h"
+				>
+			</File>
+			<File
+				RelativePath="D:\Work\Projects\ncqt\include\ncqtvideo.h"
+				>
+			</File>
+			<File
+				RelativePath="D:\Work\Projects\ncqt\include\ncqtxymessenger.h"
+				>
+			</File>
+			<File
+				RelativePath="D:\Work\Projects\ncqt\include\ply.h"
+				>
+			</File>
+		</Filter>
+		<Filter
+			Name="CMake Rules"
+			>
+			<File
+				RelativePath="H:\Work\Projects\ncqt\win32\include\moc_ncqt.cxx.rule"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating include/moc_ncqt.cxx"
+						CommandLine="cd H:\Work\Projects\ncqt\win32\include&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;H:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Work\external\qt-everywhere-opensource-src-4.8.0\bin\moc.exe @moc_ncqt.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="D:\Work\Projects\ncqt\include\ncqt.h;"
+						Outputs="H:\Work\Projects\ncqt\win32\include\moc_ncqt.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating include/moc_ncqt.cxx"
+						CommandLine="cd H:\Work\Projects\ncqt\win32\include&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;H:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Work\external\qt-everywhere-opensource-src-4.8.0\bin\moc.exe @moc_ncqt.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="D:\Work\Projects\ncqt\include\ncqt.h;"
+						Outputs="H:\Work\Projects\ncqt\win32\include\moc_ncqt.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating include/moc_ncqt.cxx"
+						CommandLine="cd H:\Work\Projects\ncqt\win32\include&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;H:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Work\external\qt-everywhere-opensource-src-4.8.0\bin\moc.exe @moc_ncqt.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="D:\Work\Projects\ncqt\include\ncqt.h;"
+						Outputs="H:\Work\Projects\ncqt\win32\include\moc_ncqt.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating include/moc_ncqt.cxx"
+						CommandLine="cd H:\Work\Projects\ncqt\win32\include&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;H:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Work\external\qt-everywhere-opensource-src-4.8.0\bin\moc.exe @moc_ncqt.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="D:\Work\Projects\ncqt\include\ncqt.h;"
+						Outputs="H:\Work\Projects\ncqt\win32\include\moc_ncqt.cxx"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="H:\Work\Projects\ncqt\win32\include\moc_ncqtabout.cxx.rule"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating include/moc_ncqtabout.cxx"
+						CommandLine="cd H:\Work\Projects\ncqt\win32\include&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;H:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Work\external\qt-everywhere-opensource-src-4.8.0\bin\moc.exe @moc_ncqtabout.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="D:\Work\Projects\ncqt\include\ncqtabout.h;"
+						Outputs="H:\Work\Projects\ncqt\win32\include\moc_ncqtabout.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating include/moc_ncqtabout.cxx"
+						CommandLine="cd H:\Work\Projects\ncqt\win32\include&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;H:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Work\external\qt-everywhere-opensource-src-4.8.0\bin\moc.exe @moc_ncqtabout.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="D:\Work\Projects\ncqt\include\ncqtabout.h;"
+						Outputs="H:\Work\Projects\ncqt\win32\include\moc_ncqtabout.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating include/moc_ncqtabout.cxx"
+						CommandLine="cd H:\Work\Projects\ncqt\win32\include&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;H:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Work\external\qt-everywhere-opensource-src-4.8.0\bin\moc.exe @moc_ncqtabout.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="D:\Work\Projects\ncqt\include\ncqtabout.h;"
+						Outputs="H:\Work\Projects\ncqt\win32\include\moc_ncqtabout.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating include/moc_ncqtabout.cxx"
+						CommandLine="cd H:\Work\Projects\ncqt\win32\include&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;H:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Work\external\qt-everywhere-opensource-src-4.8.0\bin\moc.exe @moc_ncqtabout.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="D:\Work\Projects\ncqt\include\ncqtabout.h;"
+						Outputs="H:\Work\Projects\ncqt\win32\include\moc_ncqtabout.cxx"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="H:\Work\Projects\ncqt\win32\include\moc_ncqtcamera.cxx.rule"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating include/moc_ncqtcamera.cxx"
+						CommandLine="cd H:\Work\Projects\ncqt\win32\include&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;H:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Work\external\qt-everywhere-opensource-src-4.8.0\bin\moc.exe @moc_ncqtcamera.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="D:\Work\Projects\ncqt\include\ncqtcamera.h;"
+						Outputs="H:\Work\Projects\ncqt\win32\include\moc_ncqtcamera.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating include/moc_ncqtcamera.cxx"
+						CommandLine="cd H:\Work\Projects\ncqt\win32\include&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;H:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Work\external\qt-everywhere-opensource-src-4.8.0\bin\moc.exe @moc_ncqtcamera.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="D:\Work\Projects\ncqt\include\ncqtcamera.h;"
+						Outputs="H:\Work\Projects\ncqt\win32\include\moc_ncqtcamera.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating include/moc_ncqtcamera.cxx"
+						CommandLine="cd H:\Work\Projects\ncqt\win32\include&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;H:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Work\external\qt-everywhere-opensource-src-4.8.0\bin\moc.exe @moc_ncqtcamera.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="D:\Work\Projects\ncqt\include\ncqtcamera.h;"
+						Outputs="H:\Work\Projects\ncqt\win32\include\moc_ncqtcamera.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating include/moc_ncqtcamera.cxx"
+						CommandLine="cd H:\Work\Projects\ncqt\win32\include&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;H:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Work\external\qt-everywhere-opensource-src-4.8.0\bin\moc.exe @moc_ncqtcamera.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="D:\Work\Projects\ncqt\include\ncqtcamera.h;"
+						Outputs="H:\Work\Projects\ncqt\win32\include\moc_ncqtcamera.cxx"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="H:\Work\Projects\ncqt\win32\include\moc_ncqtconfig.cxx.rule"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating include/moc_ncqtconfig.cxx"
+						CommandLine="cd H:\Work\Projects\ncqt\win32\include&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;H:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Work\external\qt-everywhere-opensource-src-4.8.0\bin\moc.exe @moc_ncqtconfig.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="D:\Work\Projects\ncqt\include\ncqtconfig.h;"
+						Outputs="H:\Work\Projects\ncqt\win32\include\moc_ncqtconfig.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating include/moc_ncqtconfig.cxx"
+						CommandLine="cd H:\Work\Projects\ncqt\win32\include&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;H:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Work\external\qt-everywhere-opensource-src-4.8.0\bin\moc.exe @moc_ncqtconfig.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="D:\Work\Projects\ncqt\include\ncqtconfig.h;"
+						Outputs="H:\Work\Projects\ncqt\win32\include\moc_ncqtconfig.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating include/moc_ncqtconfig.cxx"
+						CommandLine="cd H:\Work\Projects\ncqt\win32\include&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;H:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Work\external\qt-everywhere-opensource-src-4.8.0\bin\moc.exe @moc_ncqtconfig.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="D:\Work\Projects\ncqt\include\ncqtconfig.h;"
+						Outputs="H:\Work\Projects\ncqt\win32\include\moc_ncqtconfig.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating include/moc_ncqtconfig.cxx"
+						CommandLine="cd H:\Work\Projects\ncqt\win32\include&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;H:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Work\external\qt-everywhere-opensource-src-4.8.0\bin\moc.exe @moc_ncqtconfig.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="D:\Work\Projects\ncqt\include\ncqtconfig.h;"
+						Outputs="H:\Work\Projects\ncqt\win32\include\moc_ncqtconfig.cxx"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="H:\Work\Projects\ncqt\win32\include\moc_ncqtconfigmanager.cxx.rule"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating include/moc_ncqtconfigmanager.cxx"
+						CommandLine="cd H:\Work\Projects\ncqt\win32\include&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;H:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Work\external\qt-everywhere-opensource-src-4.8.0\bin\moc.exe @moc_ncqtconfigmanager.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="D:\Work\Projects\ncqt\include\ncqtconfigmanager.h;"
+						Outputs="H:\Work\Projects\ncqt\win32\include\moc_ncqtconfigmanager.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating include/moc_ncqtconfigmanager.cxx"
+						CommandLine="cd H:\Work\Projects\ncqt\win32\include&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;H:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Work\external\qt-everywhere-opensource-src-4.8.0\bin\moc.exe @moc_ncqtconfigmanager.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="D:\Work\Projects\ncqt\include\ncqtconfigmanager.h;"
+						Outputs="H:\Work\Projects\ncqt\win32\include\moc_ncqtconfigmanager.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating include/moc_ncqtconfigmanager.cxx"
+						CommandLine="cd H:\Work\Projects\ncqt\win32\include&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;H:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Work\external\qt-everywhere-opensource-src-4.8.0\bin\moc.exe @moc_ncqtconfigmanager.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="D:\Work\Projects\ncqt\include\ncqtconfigmanager.h;"
+						Outputs="H:\Work\Projects\ncqt\win32\include\moc_ncqtconfigmanager.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating include/moc_ncqtconfigmanager.cxx"
+						CommandLine="cd H:\Work\Projects\ncqt\win32\include&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;H:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Work\external\qt-everywhere-opensource-src-4.8.0\bin\moc.exe @moc_ncqtconfigmanager.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="D:\Work\Projects\ncqt\include\ncqtconfigmanager.h;"
+						Outputs="H:\Work\Projects\ncqt\win32\include\moc_ncqtconfigmanager.cxx"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="H:\Work\Projects\ncqt\win32\include\moc_ncqtdock.cxx.rule"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating include/moc_ncqtdock.cxx"
+						CommandLine="cd H:\Work\Projects\ncqt\win32\include&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;H:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Work\external\qt-everywhere-opensource-src-4.8.0\bin\moc.exe @moc_ncqtdock.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="D:\Work\Projects\ncqt\include\ncqtdock.h;"
+						Outputs="H:\Work\Projects\ncqt\win32\include\moc_ncqtdock.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating include/moc_ncqtdock.cxx"
+						CommandLine="cd H:\Work\Projects\ncqt\win32\include&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;H:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Work\external\qt-everywhere-opensource-src-4.8.0\bin\moc.exe @moc_ncqtdock.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="D:\Work\Projects\ncqt\include\ncqtdock.h;"
+						Outputs="H:\Work\Projects\ncqt\win32\include\moc_ncqtdock.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating include/moc_ncqtdock.cxx"
+						CommandLine="cd H:\Work\Projects\ncqt\win32\include&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;H:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Work\external\qt-everywhere-opensource-src-4.8.0\bin\moc.exe @moc_ncqtdock.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="D:\Work\Projects\ncqt\include\ncqtdock.h;"
+						Outputs="H:\Work\Projects\ncqt\win32\include\moc_ncqtdock.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating include/moc_ncqtdock.cxx"
+						CommandLine="cd H:\Work\Projects\ncqt\win32\include&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;H:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Work\external\qt-everywhere-opensource-src-4.8.0\bin\moc.exe @moc_ncqtdock.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="D:\Work\Projects\ncqt\include\ncqtdock.h;"
+						Outputs="H:\Work\Projects\ncqt\win32\include\moc_ncqtdock.cxx"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="H:\Work\Projects\ncqt\win32\include\moc_ncqtdoubleslidercombo.cxx.rule"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating include/moc_ncqtdoubleslidercombo.cxx"
+						CommandLine="cd H:\Work\Projects\ncqt\win32\include&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;H:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Work\external\qt-everywhere-opensource-src-4.8.0\bin\moc.exe @moc_ncqtdoubleslidercombo.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="D:\Work\Projects\ncqt\include\ncqtdoubleslidercombo.h;"
+						Outputs="H:\Work\Projects\ncqt\win32\include\moc_ncqtdoubleslidercombo.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating include/moc_ncqtdoubleslidercombo.cxx"
+						CommandLine="cd H:\Work\Projects\ncqt\win32\include&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;H:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Work\external\qt-everywhere-opensource-src-4.8.0\bin\moc.exe @moc_ncqtdoubleslidercombo.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="D:\Work\Projects\ncqt\include\ncqtdoubleslidercombo.h;"
+						Outputs="H:\Work\Projects\ncqt\win32\include\moc_ncqtdoubleslidercombo.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating include/moc_ncqtdoubleslidercombo.cxx"
+						CommandLine="cd H:\Work\Projects\ncqt\win32\include&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;H:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Work\external\qt-everywhere-opensource-src-4.8.0\bin\moc.exe @moc_ncqtdoubleslidercombo.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="D:\Work\Projects\ncqt\include\ncqtdoubleslidercombo.h;"
+						Outputs="H:\Work\Projects\ncqt\win32\include\moc_ncqtdoubleslidercombo.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating include/moc_ncqtdoubleslidercombo.cxx"
+						CommandLine="cd H:\Work\Projects\ncqt\win32\include&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;H:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Work\external\qt-everywhere-opensource-src-4.8.0\bin\moc.exe @moc_ncqtdoubleslidercombo.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="D:\Work\Projects\ncqt\include\ncqtdoubleslidercombo.h;"
+						Outputs="H:\Work\Projects\ncqt\win32\include\moc_ncqtdoubleslidercombo.cxx"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="H:\Work\Projects\ncqt\win32\include\moc_ncqtdoublespinbox.cxx.rule"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating include/moc_ncqtdoublespinbox.cxx"
+						CommandLine="cd H:\Work\Projects\ncqt\win32\include&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;H:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Work\external\qt-everywhere-opensource-src-4.8.0\bin\moc.exe @moc_ncqtdoublespinbox.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="D:\Work\Projects\ncqt\include\ncqtdoublespinbox.h;"
+						Outputs="H:\Work\Projects\ncqt\win32\include\moc_ncqtdoublespinbox.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating include/moc_ncqtdoublespinbox.cxx"
+						CommandLine="cd H:\Work\Projects\ncqt\win32\include&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;H:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Work\external\qt-everywhere-opensource-src-4.8.0\bin\moc.exe @moc_ncqtdoublespinbox.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="D:\Work\Projects\ncqt\include\ncqtdoublespinbox.h;"
+						Outputs="H:\Work\Projects\ncqt\win32\include\moc_ncqtdoublespinbox.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating include/moc_ncqtdoublespinbox.cxx"
+						CommandLine="cd H:\Work\Projects\ncqt\win32\include&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;H:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Work\external\qt-everywhere-opensource-src-4.8.0\bin\moc.exe @moc_ncqtdoublespinbox.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="D:\Work\Projects\ncqt\include\ncqtdoublespinbox.h;"
+						Outputs="H:\Work\Projects\ncqt\win32\include\moc_ncqtdoublespinbox.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating include/moc_ncqtdoublespinbox.cxx"
+						CommandLine="cd H:\Work\Projects\ncqt\win32\include&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;H:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Work\external\qt-everywhere-opensource-src-4.8.0\bin\moc.exe @moc_ncqtdoublespinbox.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="D:\Work\Projects\ncqt\include\ncqtdoublespinbox.h;"
+						Outputs="H:\Work\Projects\ncqt\win32\include\moc_ncqtdoublespinbox.cxx"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="H:\Work\Projects\ncqt\win32\include\moc_ncqtglwidget.cxx.rule"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating include/moc_ncqtglwidget.cxx"
+						CommandLine="cd H:\Work\Projects\ncqt\win32\include&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;H:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Work\external\qt-everywhere-opensource-src-4.8.0\bin\moc.exe @moc_ncqtglwidget.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="D:\Work\Projects\ncqt\include\ncqtglwidget.h;"
+						Outputs="H:\Work\Projects\ncqt\win32\include\moc_ncqtglwidget.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating include/moc_ncqtglwidget.cxx"
+						CommandLine="cd H:\Work\Projects\ncqt\win32\include&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;H:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Work\external\qt-everywhere-opensource-src-4.8.0\bin\moc.exe @moc_ncqtglwidget.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="D:\Work\Projects\ncqt\include\ncqtglwidget.h;"
+						Outputs="H:\Work\Projects\ncqt\win32\include\moc_ncqtglwidget.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating include/moc_ncqtglwidget.cxx"
+						CommandLine="cd H:\Work\Projects\ncqt\win32\include&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;H:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Work\external\qt-everywhere-opensource-src-4.8.0\bin\moc.exe @moc_ncqtglwidget.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="D:\Work\Projects\ncqt\include\ncqtglwidget.h;"
+						Outputs="H:\Work\Projects\ncqt\win32\include\moc_ncqtglwidget.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating include/moc_ncqtglwidget.cxx"
+						CommandLine="cd H:\Work\Projects\ncqt\win32\include&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;H:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Work\external\qt-everywhere-opensource-src-4.8.0\bin\moc.exe @moc_ncqtglwidget.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="D:\Work\Projects\ncqt\include\ncqtglwidget.h;"
+						Outputs="H:\Work\Projects\ncqt\win32\include\moc_ncqtglwidget.cxx"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="H:\Work\Projects\ncqt\win32\include\moc_ncqtintspinbox.cxx.rule"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating include/moc_ncqtintspinbox.cxx"
+						CommandLine="cd H:\Work\Projects\ncqt\win32\include&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;H:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Work\external\qt-everywhere-opensource-src-4.8.0\bin\moc.exe @moc_ncqtintspinbox.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="D:\Work\Projects\ncqt\include\ncqtintspinbox.h;"
+						Outputs="H:\Work\Projects\ncqt\win32\include\moc_ncqtintspinbox.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating include/moc_ncqtintspinbox.cxx"
+						CommandLine="cd H:\Work\Projects\ncqt\win32\include&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;H:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Work\external\qt-everywhere-opensource-src-4.8.0\bin\moc.exe @moc_ncqtintspinbox.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="D:\Work\Projects\ncqt\include\ncqtintspinbox.h;"
+						Outputs="H:\Work\Projects\ncqt\win32\include\moc_ncqtintspinbox.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating include/moc_ncqtintspinbox.cxx"
+						CommandLine="cd H:\Work\Projects\ncqt\win32\include&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;H:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Work\external\qt-everywhere-opensource-src-4.8.0\bin\moc.exe @moc_ncqtintspinbox.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="D:\Work\Projects\ncqt\include\ncqtintspinbox.h;"
+						Outputs="H:\Work\Projects\ncqt\win32\include\moc_ncqtintspinbox.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating include/moc_ncqtintspinbox.cxx"
+						CommandLine="cd H:\Work\Projects\ncqt\win32\include&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;H:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Work\external\qt-everywhere-opensource-src-4.8.0\bin\moc.exe @moc_ncqtintspinbox.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="D:\Work\Projects\ncqt\include\ncqtintspinbox.h;"
+						Outputs="H:\Work\Projects\ncqt\win32\include\moc_ncqtintspinbox.cxx"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="H:\Work\Projects\ncqt\win32\include\moc_ncqtlogger.cxx.rule"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating include/moc_ncqtlogger.cxx"
+						CommandLine="cd H:\Work\Projects\ncqt\win32\include&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;H:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Work\external\qt-everywhere-opensource-src-4.8.0\bin\moc.exe @moc_ncqtlogger.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="D:\Work\Projects\ncqt\include\ncqtlogger.h;"
+						Outputs="H:\Work\Projects\ncqt\win32\include\moc_ncqtlogger.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating include/moc_ncqtlogger.cxx"
+						CommandLine="cd H:\Work\Projects\ncqt\win32\include&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;H:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Work\external\qt-everywhere-opensource-src-4.8.0\bin\moc.exe @moc_ncqtlogger.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="D:\Work\Projects\ncqt\include\ncqtlogger.h;"
+						Outputs="H:\Work\Projects\ncqt\win32\include\moc_ncqtlogger.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating include/moc_ncqtlogger.cxx"
+						CommandLine="cd H:\Work\Projects\ncqt\win32\include&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;H:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Work\external\qt-everywhere-opensource-src-4.8.0\bin\moc.exe @moc_ncqtlogger.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="D:\Work\Projects\ncqt\include\ncqtlogger.h;"
+						Outputs="H:\Work\Projects\ncqt\win32\include\moc_ncqtlogger.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating include/moc_ncqtlogger.cxx"
+						CommandLine="cd H:\Work\Projects\ncqt\win32\include&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;H:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Work\external\qt-everywhere-opensource-src-4.8.0\bin\moc.exe @moc_ncqtlogger.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="D:\Work\Projects\ncqt\include\ncqtlogger.h;"
+						Outputs="H:\Work\Projects\ncqt\win32\include\moc_ncqtlogger.cxx"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="H:\Work\Projects\ncqt\win32\include\moc_ncqtmainwindow.cxx.rule"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating include/moc_ncqtmainwindow.cxx"
+						CommandLine="cd H:\Work\Projects\ncqt\win32\include&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;H:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Work\external\qt-everywhere-opensource-src-4.8.0\bin\moc.exe @moc_ncqtmainwindow.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="D:\Work\Projects\ncqt\include\ncqtmainwindow.h;"
+						Outputs="H:\Work\Projects\ncqt\win32\include\moc_ncqtmainwindow.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating include/moc_ncqtmainwindow.cxx"
+						CommandLine="cd H:\Work\Projects\ncqt\win32\include&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;H:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Work\external\qt-everywhere-opensource-src-4.8.0\bin\moc.exe @moc_ncqtmainwindow.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="D:\Work\Projects\ncqt\include\ncqtmainwindow.h;"
+						Outputs="H:\Work\Projects\ncqt\win32\include\moc_ncqtmainwindow.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating include/moc_ncqtmainwindow.cxx"
+						CommandLine="cd H:\Work\Projects\ncqt\win32\include&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;H:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Work\external\qt-everywhere-opensource-src-4.8.0\bin\moc.exe @moc_ncqtmainwindow.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="D:\Work\Projects\ncqt\include\ncqtmainwindow.h;"
+						Outputs="H:\Work\Projects\ncqt\win32\include\moc_ncqtmainwindow.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating include/moc_ncqtmainwindow.cxx"
+						CommandLine="cd H:\Work\Projects\ncqt\win32\include&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;H:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Work\external\qt-everywhere-opensource-src-4.8.0\bin\moc.exe @moc_ncqtmainwindow.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="D:\Work\Projects\ncqt\include\ncqtmainwindow.h;"
+						Outputs="H:\Work\Projects\ncqt\win32\include\moc_ncqtmainwindow.cxx"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="H:\Work\Projects\ncqt\win32\include\moc_ncqtmultibar.cxx.rule"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating include/moc_ncqtmultibar.cxx"
+						CommandLine="cd H:\Work\Projects\ncqt\win32\include&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;H:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Work\external\qt-everywhere-opensource-src-4.8.0\bin\moc.exe @moc_ncqtmultibar.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="D:\Work\Projects\ncqt\include\ncqtmultibar.h;"
+						Outputs="H:\Work\Projects\ncqt\win32\include\moc_ncqtmultibar.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating include/moc_ncqtmultibar.cxx"
+						CommandLine="cd H:\Work\Projects\ncqt\win32\include&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;H:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Work\external\qt-everywhere-opensource-src-4.8.0\bin\moc.exe @moc_ncqtmultibar.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="D:\Work\Projects\ncqt\include\ncqtmultibar.h;"
+						Outputs="H:\Work\Projects\ncqt\win32\include\moc_ncqtmultibar.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating include/moc_ncqtmultibar.cxx"
+						CommandLine="cd H:\Work\Projects\ncqt\win32\include&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;H:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Work\external\qt-everywhere-opensource-src-4.8.0\bin\moc.exe @moc_ncqtmultibar.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="D:\Work\Projects\ncqt\include\ncqtmultibar.h;"
+						Outputs="H:\Work\Projects\ncqt\win32\include\moc_ncqtmultibar.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating include/moc_ncqtmultibar.cxx"
+						CommandLine="cd H:\Work\Projects\ncqt\win32\include&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;H:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Work\external\qt-everywhere-opensource-src-4.8.0\bin\moc.exe @moc_ncqtmultibar.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="D:\Work\Projects\ncqt\include\ncqtmultibar.h;"
+						Outputs="H:\Work\Projects\ncqt\win32\include\moc_ncqtmultibar.cxx"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="H:\Work\Projects\ncqt\win32\include\moc_ncqtprogram.cxx.rule"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating include/moc_ncqtprogram.cxx"
+						CommandLine="cd H:\Work\Projects\ncqt\win32\include&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;H:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Work\external\qt-everywhere-opensource-src-4.8.0\bin\moc.exe @moc_ncqtprogram.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="D:\Work\Projects\ncqt\include\ncqtprogram.h;"
+						Outputs="H:\Work\Projects\ncqt\win32\include\moc_ncqtprogram.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating include/moc_ncqtprogram.cxx"
+						CommandLine="cd H:\Work\Projects\ncqt\win32\include&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;H:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Work\external\qt-everywhere-opensource-src-4.8.0\bin\moc.exe @moc_ncqtprogram.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="D:\Work\Projects\ncqt\include\ncqtprogram.h;"
+						Outputs="H:\Work\Projects\ncqt\win32\include\moc_ncqtprogram.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating include/moc_ncqtprogram.cxx"
+						CommandLine="cd H:\Work\Projects\ncqt\win32\include&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;H:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Work\external\qt-everywhere-opensource-src-4.8.0\bin\moc.exe @moc_ncqtprogram.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="D:\Work\Projects\ncqt\include\ncqtprogram.h;"
+						Outputs="H:\Work\Projects\ncqt\win32\include\moc_ncqtprogram.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating include/moc_ncqtprogram.cxx"
+						CommandLine="cd H:\Work\Projects\ncqt\win32\include&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;H:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Work\external\qt-everywhere-opensource-src-4.8.0\bin\moc.exe @moc_ncqtprogram.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="D:\Work\Projects\ncqt\include\ncqtprogram.h;"
+						Outputs="H:\Work\Projects\ncqt\win32\include\moc_ncqtprogram.cxx"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="H:\Work\Projects\ncqt\win32\include\moc_ncqtprogressbar.cxx.rule"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating include/moc_ncqtprogressbar.cxx"
+						CommandLine="cd H:\Work\Projects\ncqt\win32\include&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;H:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Work\external\qt-everywhere-opensource-src-4.8.0\bin\moc.exe @moc_ncqtprogressbar.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="D:\Work\Projects\ncqt\include\ncqtprogressbar.h;"
+						Outputs="H:\Work\Projects\ncqt\win32\include\moc_ncqtprogressbar.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating include/moc_ncqtprogressbar.cxx"
+						CommandLine="cd H:\Work\Projects\ncqt\win32\include&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;H:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Work\external\qt-everywhere-opensource-src-4.8.0\bin\moc.exe @moc_ncqtprogressbar.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="D:\Work\Projects\ncqt\include\ncqtprogressbar.h;"
+						Outputs="H:\Work\Projects\ncqt\win32\include\moc_ncqtprogressbar.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating include/moc_ncqtprogressbar.cxx"
+						CommandLine="cd H:\Work\Projects\ncqt\win32\include&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;H:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Work\external\qt-everywhere-opensource-src-4.8.0\bin\moc.exe @moc_ncqtprogressbar.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="D:\Work\Projects\ncqt\include\ncqtprogressbar.h;"
+						Outputs="H:\Work\Projects\ncqt\win32\include\moc_ncqtprogressbar.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating include/moc_ncqtprogressbar.cxx"
+						CommandLine="cd H:\Work\Projects\ncqt\win32\include&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;H:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Work\external\qt-everywhere-opensource-src-4.8.0\bin\moc.exe @moc_ncqtprogressbar.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="D:\Work\Projects\ncqt\include\ncqtprogressbar.h;"
+						Outputs="H:\Work\Projects\ncqt\win32\include\moc_ncqtprogressbar.cxx"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="H:\Work\Projects\ncqt\win32\include\moc_ncqtscenix.cxx.rule"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating include/moc_ncqtscenix.cxx"
+						CommandLine="cd H:\Work\Projects\ncqt\win32\include&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;H:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Work\external\qt-everywhere-opensource-src-4.8.0\bin\moc.exe @moc_ncqtscenix.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="D:\Work\Projects\ncqt\include\ncqtscenix.h;"
+						Outputs="H:\Work\Projects\ncqt\win32\include\moc_ncqtscenix.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating include/moc_ncqtscenix.cxx"
+						CommandLine="cd H:\Work\Projects\ncqt\win32\include&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;H:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Work\external\qt-everywhere-opensource-src-4.8.0\bin\moc.exe @moc_ncqtscenix.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="D:\Work\Projects\ncqt\include\ncqtscenix.h;"
+						Outputs="H:\Work\Projects\ncqt\win32\include\moc_ncqtscenix.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating include/moc_ncqtscenix.cxx"
+						CommandLine="cd H:\Work\Projects\ncqt\win32\include&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;H:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Work\external\qt-everywhere-opensource-src-4.8.0\bin\moc.exe @moc_ncqtscenix.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="D:\Work\Projects\ncqt\include\ncqtscenix.h;"
+						Outputs="H:\Work\Projects\ncqt\win32\include\moc_ncqtscenix.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating include/moc_ncqtscenix.cxx"
+						CommandLine="cd H:\Work\Projects\ncqt\win32\include&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;H:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Work\external\qt-everywhere-opensource-src-4.8.0\bin\moc.exe @moc_ncqtscenix.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="D:\Work\Projects\ncqt\include\ncqtscenix.h;"
+						Outputs="H:\Work\Projects\ncqt\win32\include\moc_ncqtscenix.cxx"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="H:\Work\Projects\ncqt\win32\include\moc_ncqtsignalhandler.cxx.rule"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating include/moc_ncqtsignalhandler.cxx"
+						CommandLine="cd H:\Work\Projects\ncqt\win32\include&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;H:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Work\external\qt-everywhere-opensource-src-4.8.0\bin\moc.exe @moc_ncqtsignalhandler.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="D:\Work\Projects\ncqt\include\ncqtsignalhandler.h;"
+						Outputs="H:\Work\Projects\ncqt\win32\include\moc_ncqtsignalhandler.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating include/moc_ncqtsignalhandler.cxx"
+						CommandLine="cd H:\Work\Projects\ncqt\win32\include&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;H:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Work\external\qt-everywhere-opensource-src-4.8.0\bin\moc.exe @moc_ncqtsignalhandler.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="D:\Work\Projects\ncqt\include\ncqtsignalhandler.h;"
+						Outputs="H:\Work\Projects\ncqt\win32\include\moc_ncqtsignalhandler.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating include/moc_ncqtsignalhandler.cxx"
+						CommandLine="cd H:\Work\Projects\ncqt\win32\include&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;H:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Work\external\qt-everywhere-opensource-src-4.8.0\bin\moc.exe @moc_ncqtsignalhandler.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="D:\Work\Projects\ncqt\include\ncqtsignalhandler.h;"
+						Outputs="H:\Work\Projects\ncqt\win32\include\moc_ncqtsignalhandler.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating include/moc_ncqtsignalhandler.cxx"
+						CommandLine="cd H:\Work\Projects\ncqt\win32\include&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;H:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Work\external\qt-everywhere-opensource-src-4.8.0\bin\moc.exe @moc_ncqtsignalhandler.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="D:\Work\Projects\ncqt\include\ncqtsignalhandler.h;"
+						Outputs="H:\Work\Projects\ncqt\win32\include\moc_ncqtsignalhandler.cxx"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="H:\Work\Projects\ncqt\win32\include\moc_ncqtvideo.cxx.rule"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating include/moc_ncqtvideo.cxx"
+						CommandLine="cd H:\Work\Projects\ncqt\win32\include&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;H:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Work\external\qt-everywhere-opensource-src-4.8.0\bin\moc.exe @moc_ncqtvideo.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="D:\Work\Projects\ncqt\include\ncqtvideo.h;"
+						Outputs="H:\Work\Projects\ncqt\win32\include\moc_ncqtvideo.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating include/moc_ncqtvideo.cxx"
+						CommandLine="cd H:\Work\Projects\ncqt\win32\include&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;H:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Work\external\qt-everywhere-opensource-src-4.8.0\bin\moc.exe @moc_ncqtvideo.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="D:\Work\Projects\ncqt\include\ncqtvideo.h;"
+						Outputs="H:\Work\Projects\ncqt\win32\include\moc_ncqtvideo.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating include/moc_ncqtvideo.cxx"
+						CommandLine="cd H:\Work\Projects\ncqt\win32\include&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;H:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Work\external\qt-everywhere-opensource-src-4.8.0\bin\moc.exe @moc_ncqtvideo.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="D:\Work\Projects\ncqt\include\ncqtvideo.h;"
+						Outputs="H:\Work\Projects\ncqt\win32\include\moc_ncqtvideo.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating include/moc_ncqtvideo.cxx"
+						CommandLine="cd H:\Work\Projects\ncqt\win32\include&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;H:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Work\external\qt-everywhere-opensource-src-4.8.0\bin\moc.exe @moc_ncqtvideo.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="D:\Work\Projects\ncqt\include\ncqtvideo.h;"
+						Outputs="H:\Work\Projects\ncqt\win32\include\moc_ncqtvideo.cxx"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="H:\Work\Projects\ncqt\win32\include\moc_ncqtxymessenger.cxx.rule"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating include/moc_ncqtxymessenger.cxx"
+						CommandLine="cd H:\Work\Projects\ncqt\win32\include&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;H:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Work\external\qt-everywhere-opensource-src-4.8.0\bin\moc.exe @moc_ncqtxymessenger.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="D:\Work\Projects\ncqt\include\ncqtxymessenger.h;"
+						Outputs="H:\Work\Projects\ncqt\win32\include\moc_ncqtxymessenger.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating include/moc_ncqtxymessenger.cxx"
+						CommandLine="cd H:\Work\Projects\ncqt\win32\include&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;H:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Work\external\qt-everywhere-opensource-src-4.8.0\bin\moc.exe @moc_ncqtxymessenger.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="D:\Work\Projects\ncqt\include\ncqtxymessenger.h;"
+						Outputs="H:\Work\Projects\ncqt\win32\include\moc_ncqtxymessenger.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating include/moc_ncqtxymessenger.cxx"
+						CommandLine="cd H:\Work\Projects\ncqt\win32\include&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;H:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Work\external\qt-everywhere-opensource-src-4.8.0\bin\moc.exe @moc_ncqtxymessenger.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="D:\Work\Projects\ncqt\include\ncqtxymessenger.h;"
+						Outputs="H:\Work\Projects\ncqt\win32\include\moc_ncqtxymessenger.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating include/moc_ncqtxymessenger.cxx"
+						CommandLine="cd H:\Work\Projects\ncqt\win32\include&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;H:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Work\external\qt-everywhere-opensource-src-4.8.0\bin\moc.exe @moc_ncqtxymessenger.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="D:\Work\Projects\ncqt\include\ncqtxymessenger.h;"
+						Outputs="H:\Work\Projects\ncqt\win32\include\moc_ncqtxymessenger.cxx"
+					/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="H:\Work\Projects\ncqt\win32\include\moc_ply.cxx.rule"
+				>
+				<FileConfiguration
+					Name="Debug|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating include/moc_ply.cxx"
+						CommandLine="cd H:\Work\Projects\ncqt\win32\include&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;H:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Work\external\qt-everywhere-opensource-src-4.8.0\bin\moc.exe @moc_ply.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="D:\Work\Projects\ncqt\include\ply.h;"
+						Outputs="H:\Work\Projects\ncqt\win32\include\moc_ply.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating include/moc_ply.cxx"
+						CommandLine="cd H:\Work\Projects\ncqt\win32\include&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;H:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Work\external\qt-everywhere-opensource-src-4.8.0\bin\moc.exe @moc_ply.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="D:\Work\Projects\ncqt\include\ply.h;"
+						Outputs="H:\Work\Projects\ncqt\win32\include\moc_ply.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating include/moc_ply.cxx"
+						CommandLine="cd H:\Work\Projects\ncqt\win32\include&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;H:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Work\external\qt-everywhere-opensource-src-4.8.0\bin\moc.exe @moc_ply.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="D:\Work\Projects\ncqt\include\ply.h;"
+						Outputs="H:\Work\Projects\ncqt\win32\include\moc_ply.cxx"
+					/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32"
+					>
+					<Tool
+						Name="VCCustomBuildTool"
+						Description="Generating include/moc_ply.cxx"
+						CommandLine="cd H:\Work\Projects\ncqt\win32\include&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;H:&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;D:\Work\external\qt-everywhere-opensource-src-4.8.0\bin\moc.exe @moc_ply.cxx_parameters&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+						AdditionalDependencies="D:\Work\Projects\ncqt\include\ply.h;"
+						Outputs="H:\Work\Projects\ncqt\win32\include\moc_ply.cxx"
+					/>
+				</FileConfiguration>
+			</File>
+		</Filter>
+		<File
+			RelativePath="D:\Work\Projects\ncqt\CMakeLists.txt"
+			>
+			<FileConfiguration
+				Name="Debug|Win32"
+				>
+				<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule D:/Work/Projects/ncqt/CMakeLists.txt"
+					CommandLine="&quot;C:\Program Files (x86)\CMake 2.8\bin\cmake.exe&quot; -HD:/Work/Projects/ncqt -BH:/Work/Projects/ncqt/win32 --check-stamp-file H:\Work\Projects\ncqt\win32\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+					AdditionalDependencies="D:\Work\Projects\ncqt\CMakeLists.txt;H:\Work\Projects\ncqt\win32\CMakeFiles\2.8.11.2\CMakeSystem.cmake;H:\Work\Projects\ncqt\win32\CMakeFiles\2.8.11.2\CMakeCCompiler.cmake;H:\Work\Projects\ncqt\win32\CMakeFiles\2.8.11.2\CMakeCXXCompiler.cmake;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-C.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake&quot;;H:\Work\Projects\ncqt\win32\CMakeFiles\2.8.11.2\CMakeRCCompiler.cmake;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-CXX.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake&quot;;D:\Work\Projects\all\CMakeLists.txt;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindOpenGL.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindQt4.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckCXXSymbolExists.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckSymbolExists.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\MacroAddFileDependencies.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Qt4ConfigDependentSettings.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindOpenGL.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Qt4Macros.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\UseQt4.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindCUDA.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake&quot;;D:\Work\Projects\ncqt\icons\icons.qrc;D:\Work\Projects\ncqt\ncqt_shaders.qrc;D:\Work\Projects\ncqt\CMakeLists.txt;"
+					Outputs="H:\Work\Projects\ncqt\win32\CMakeFiles\generate.stamp"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Release|Win32"
+				>
+				<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule D:/Work/Projects/ncqt/CMakeLists.txt"
+					CommandLine="&quot;C:\Program Files (x86)\CMake 2.8\bin\cmake.exe&quot; -HD:/Work/Projects/ncqt -BH:/Work/Projects/ncqt/win32 --check-stamp-file H:\Work\Projects\ncqt\win32\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+					AdditionalDependencies="D:\Work\Projects\ncqt\CMakeLists.txt;H:\Work\Projects\ncqt\win32\CMakeFiles\2.8.11.2\CMakeSystem.cmake;H:\Work\Projects\ncqt\win32\CMakeFiles\2.8.11.2\CMakeCCompiler.cmake;H:\Work\Projects\ncqt\win32\CMakeFiles\2.8.11.2\CMakeCXXCompiler.cmake;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-C.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake&quot;;H:\Work\Projects\ncqt\win32\CMakeFiles\2.8.11.2\CMakeRCCompiler.cmake;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-CXX.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake&quot;;D:\Work\Projects\all\CMakeLists.txt;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindOpenGL.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindQt4.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckCXXSymbolExists.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckSymbolExists.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\MacroAddFileDependencies.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Qt4ConfigDependentSettings.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindOpenGL.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Qt4Macros.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\UseQt4.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindCUDA.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake&quot;;D:\Work\Projects\ncqt\icons\icons.qrc;D:\Work\Projects\ncqt\ncqt_shaders.qrc;D:\Work\Projects\ncqt\CMakeLists.txt;"
+					Outputs="H:\Work\Projects\ncqt\win32\CMakeFiles\generate.stamp"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="MinSizeRel|Win32"
+				>
+				<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule D:/Work/Projects/ncqt/CMakeLists.txt"
+					CommandLine="&quot;C:\Program Files (x86)\CMake 2.8\bin\cmake.exe&quot; -HD:/Work/Projects/ncqt -BH:/Work/Projects/ncqt/win32 --check-stamp-file H:\Work\Projects\ncqt\win32\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+					AdditionalDependencies="D:\Work\Projects\ncqt\CMakeLists.txt;H:\Work\Projects\ncqt\win32\CMakeFiles\2.8.11.2\CMakeSystem.cmake;H:\Work\Projects\ncqt\win32\CMakeFiles\2.8.11.2\CMakeCCompiler.cmake;H:\Work\Projects\ncqt\win32\CMakeFiles\2.8.11.2\CMakeCXXCompiler.cmake;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-C.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake&quot;;H:\Work\Projects\ncqt\win32\CMakeFiles\2.8.11.2\CMakeRCCompiler.cmake;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-CXX.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake&quot;;D:\Work\Projects\all\CMakeLists.txt;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindOpenGL.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindQt4.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckCXXSymbolExists.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckSymbolExists.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\MacroAddFileDependencies.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Qt4ConfigDependentSettings.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindOpenGL.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Qt4Macros.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\UseQt4.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindCUDA.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake&quot;;D:\Work\Projects\ncqt\icons\icons.qrc;D:\Work\Projects\ncqt\ncqt_shaders.qrc;D:\Work\Projects\ncqt\CMakeLists.txt;"
+					Outputs="H:\Work\Projects\ncqt\win32\CMakeFiles\generate.stamp"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="RelWithDebInfo|Win32"
+				>
+				<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule D:/Work/Projects/ncqt/CMakeLists.txt"
+					CommandLine="&quot;C:\Program Files (x86)\CMake 2.8\bin\cmake.exe&quot; -HD:/Work/Projects/ncqt -BH:/Work/Projects/ncqt/win32 --check-stamp-file H:\Work\Projects\ncqt\win32\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+					AdditionalDependencies="D:\Work\Projects\ncqt\CMakeLists.txt;H:\Work\Projects\ncqt\win32\CMakeFiles\2.8.11.2\CMakeSystem.cmake;H:\Work\Projects\ncqt\win32\CMakeFiles\2.8.11.2\CMakeCCompiler.cmake;H:\Work\Projects\ncqt\win32\CMakeFiles\2.8.11.2\CMakeCXXCompiler.cmake;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-C.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake&quot;;H:\Work\Projects\ncqt\win32\CMakeFiles\2.8.11.2\CMakeRCCompiler.cmake;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-CXX.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake&quot;;D:\Work\Projects\all\CMakeLists.txt;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindOpenGL.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindQt4.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckCXXSymbolExists.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckSymbolExists.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\MacroAddFileDependencies.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Qt4ConfigDependentSettings.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindOpenGL.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Qt4Macros.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\UseQt4.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindCUDA.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake&quot;;D:\Work\Projects\ncqt\icons\icons.qrc;D:\Work\Projects\ncqt\ncqt_shaders.qrc;D:\Work\Projects\ncqt\CMakeLists.txt;"
+					Outputs="H:\Work\Projects\ncqt\win32\CMakeFiles\generate.stamp"
+				/>
+			</FileConfiguration>
+		</File>
+		<File
+			RelativePath="D:\Work\Projects\ncqt\icons\icons.qrc"
+			>
+			<FileConfiguration
+				Name="Debug|Win32"
+				>
+				<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qrc_icons.cxx"
+					CommandLine="D:\Work\external\qt-everywhere-opensource-src-4.8.0\bin\rcc.exe -name icons -o H:/Work/Projects/ncqt/win32/qrc_icons.cxx D:/Work/Projects/ncqt/icons/icons.qrc&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+					AdditionalDependencies="D:\Work\Projects\ncqt\icons\crystal_project\32x32\actions\player_play.png;D:\Work\Projects\ncqt\icons\crystal_project\32x32\actions\player_pause.png;D:\Work\Projects\ncqt\icons\crystal_project\32x32\actions\quick_restart.png;D:\Work\Projects\ncqt\icons\crystal_project\32x32\actions\player_start.png;D:\Work\Projects\ncqt\icons\crystal_project\32x32\actions\player_end.png;D:\Work\Projects\ncqt\icons\crystal_project\32x32\actions\multimedia2.png;D:\Work\Projects\ncqt\icons\crystal_project\32x32\actions\edit_add.png;D:\Work\Projects\ncqt\icons\crystal_project\32x32\actions\edit_remove.png;D:\Work\Projects\ncqt\icons\custom\layer-visible-on.png;D:\Work\Projects\ncqt\icons\custom\layer-visible-off.png;D:\Work\Projects\ncqt\icons\crystal_project\32x32\actions\edit_add.png;D:\Work\Projects\ncqt\icons\crystal_project\32x32\actions\edit_remove.png;H:\Work\Projects\ncqt\win32\icons\icons.qrc.depends;D:\Work\Projects\ncqt\icons\icons.qrc;"
+					Outputs="H:\Work\Projects\ncqt\win32\qrc_icons.cxx"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Release|Win32"
+				>
+				<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qrc_icons.cxx"
+					CommandLine="D:\Work\external\qt-everywhere-opensource-src-4.8.0\bin\rcc.exe -name icons -o H:/Work/Projects/ncqt/win32/qrc_icons.cxx D:/Work/Projects/ncqt/icons/icons.qrc&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+					AdditionalDependencies="D:\Work\Projects\ncqt\icons\crystal_project\32x32\actions\player_play.png;D:\Work\Projects\ncqt\icons\crystal_project\32x32\actions\player_pause.png;D:\Work\Projects\ncqt\icons\crystal_project\32x32\actions\quick_restart.png;D:\Work\Projects\ncqt\icons\crystal_project\32x32\actions\player_start.png;D:\Work\Projects\ncqt\icons\crystal_project\32x32\actions\player_end.png;D:\Work\Projects\ncqt\icons\crystal_project\32x32\actions\multimedia2.png;D:\Work\Projects\ncqt\icons\crystal_project\32x32\actions\edit_add.png;D:\Work\Projects\ncqt\icons\crystal_project\32x32\actions\edit_remove.png;D:\Work\Projects\ncqt\icons\custom\layer-visible-on.png;D:\Work\Projects\ncqt\icons\custom\layer-visible-off.png;D:\Work\Projects\ncqt\icons\crystal_project\32x32\actions\edit_add.png;D:\Work\Projects\ncqt\icons\crystal_project\32x32\actions\edit_remove.png;H:\Work\Projects\ncqt\win32\icons\icons.qrc.depends;D:\Work\Projects\ncqt\icons\icons.qrc;"
+					Outputs="H:\Work\Projects\ncqt\win32\qrc_icons.cxx"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="MinSizeRel|Win32"
+				>
+				<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qrc_icons.cxx"
+					CommandLine="D:\Work\external\qt-everywhere-opensource-src-4.8.0\bin\rcc.exe -name icons -o H:/Work/Projects/ncqt/win32/qrc_icons.cxx D:/Work/Projects/ncqt/icons/icons.qrc&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+					AdditionalDependencies="D:\Work\Projects\ncqt\icons\crystal_project\32x32\actions\player_play.png;D:\Work\Projects\ncqt\icons\crystal_project\32x32\actions\player_pause.png;D:\Work\Projects\ncqt\icons\crystal_project\32x32\actions\quick_restart.png;D:\Work\Projects\ncqt\icons\crystal_project\32x32\actions\player_start.png;D:\Work\Projects\ncqt\icons\crystal_project\32x32\actions\player_end.png;D:\Work\Projects\ncqt\icons\crystal_project\32x32\actions\multimedia2.png;D:\Work\Projects\ncqt\icons\crystal_project\32x32\actions\edit_add.png;D:\Work\Projects\ncqt\icons\crystal_project\32x32\actions\edit_remove.png;D:\Work\Projects\ncqt\icons\custom\layer-visible-on.png;D:\Work\Projects\ncqt\icons\custom\layer-visible-off.png;D:\Work\Projects\ncqt\icons\crystal_project\32x32\actions\edit_add.png;D:\Work\Projects\ncqt\icons\crystal_project\32x32\actions\edit_remove.png;H:\Work\Projects\ncqt\win32\icons\icons.qrc.depends;D:\Work\Projects\ncqt\icons\icons.qrc;"
+					Outputs="H:\Work\Projects\ncqt\win32\qrc_icons.cxx"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="RelWithDebInfo|Win32"
+				>
+				<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qrc_icons.cxx"
+					CommandLine="D:\Work\external\qt-everywhere-opensource-src-4.8.0\bin\rcc.exe -name icons -o H:/Work/Projects/ncqt/win32/qrc_icons.cxx D:/Work/Projects/ncqt/icons/icons.qrc&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+					AdditionalDependencies="D:\Work\Projects\ncqt\icons\crystal_project\32x32\actions\player_play.png;D:\Work\Projects\ncqt\icons\crystal_project\32x32\actions\player_pause.png;D:\Work\Projects\ncqt\icons\crystal_project\32x32\actions\quick_restart.png;D:\Work\Projects\ncqt\icons\crystal_project\32x32\actions\player_start.png;D:\Work\Projects\ncqt\icons\crystal_project\32x32\actions\player_end.png;D:\Work\Projects\ncqt\icons\crystal_project\32x32\actions\multimedia2.png;D:\Work\Projects\ncqt\icons\crystal_project\32x32\actions\edit_add.png;D:\Work\Projects\ncqt\icons\crystal_project\32x32\actions\edit_remove.png;D:\Work\Projects\ncqt\icons\custom\layer-visible-on.png;D:\Work\Projects\ncqt\icons\custom\layer-visible-off.png;D:\Work\Projects\ncqt\icons\crystal_project\32x32\actions\edit_add.png;D:\Work\Projects\ncqt\icons\crystal_project\32x32\actions\edit_remove.png;H:\Work\Projects\ncqt\win32\icons\icons.qrc.depends;D:\Work\Projects\ncqt\icons\icons.qrc;"
+					Outputs="H:\Work\Projects\ncqt\win32\qrc_icons.cxx"
+				/>
+			</FileConfiguration>
+		</File>
+		<File
+			RelativePath="D:\Work\Projects\ncqt\ncqt_shaders.qrc"
+			>
+			<FileConfiguration
+				Name="Debug|Win32"
+				>
+				<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qrc_ncqt_shaders.cxx"
+					CommandLine="D:\Work\external\qt-everywhere-opensource-src-4.8.0\bin\rcc.exe -name ncqt_shaders -o H:/Work/Projects/ncqt/win32/qrc_ncqt_shaders.cxx D:/Work/Projects/ncqt/ncqt_shaders.qrc&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+					AdditionalDependencies="D:\Work\Projects\ncqt\shaders\cube.vert;D:\Work\Projects\ncqt\shaders\cube.geom;D:\Work\Projects\ncqt\shaders\cube.frag;H:\Work\Projects\ncqt\win32\ncqt_shaders.qrc.depends;D:\Work\Projects\ncqt\ncqt_shaders.qrc;"
+					Outputs="H:\Work\Projects\ncqt\win32\qrc_ncqt_shaders.cxx"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Release|Win32"
+				>
+				<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qrc_ncqt_shaders.cxx"
+					CommandLine="D:\Work\external\qt-everywhere-opensource-src-4.8.0\bin\rcc.exe -name ncqt_shaders -o H:/Work/Projects/ncqt/win32/qrc_ncqt_shaders.cxx D:/Work/Projects/ncqt/ncqt_shaders.qrc&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+					AdditionalDependencies="D:\Work\Projects\ncqt\shaders\cube.vert;D:\Work\Projects\ncqt\shaders\cube.geom;D:\Work\Projects\ncqt\shaders\cube.frag;H:\Work\Projects\ncqt\win32\ncqt_shaders.qrc.depends;D:\Work\Projects\ncqt\ncqt_shaders.qrc;"
+					Outputs="H:\Work\Projects\ncqt\win32\qrc_ncqt_shaders.cxx"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="MinSizeRel|Win32"
+				>
+				<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qrc_ncqt_shaders.cxx"
+					CommandLine="D:\Work\external\qt-everywhere-opensource-src-4.8.0\bin\rcc.exe -name ncqt_shaders -o H:/Work/Projects/ncqt/win32/qrc_ncqt_shaders.cxx D:/Work/Projects/ncqt/ncqt_shaders.qrc&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+					AdditionalDependencies="D:\Work\Projects\ncqt\shaders\cube.vert;D:\Work\Projects\ncqt\shaders\cube.geom;D:\Work\Projects\ncqt\shaders\cube.frag;H:\Work\Projects\ncqt\win32\ncqt_shaders.qrc.depends;D:\Work\Projects\ncqt\ncqt_shaders.qrc;"
+					Outputs="H:\Work\Projects\ncqt\win32\qrc_ncqt_shaders.cxx"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="RelWithDebInfo|Win32"
+				>
+				<Tool
+					Name="VCCustomBuildTool"
+					Description="Generating qrc_ncqt_shaders.cxx"
+					CommandLine="D:\Work\external\qt-everywhere-opensource-src-4.8.0\bin\rcc.exe -name ncqt_shaders -o H:/Work/Projects/ncqt/win32/qrc_ncqt_shaders.cxx D:/Work/Projects/ncqt/ncqt_shaders.qrc&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+					AdditionalDependencies="D:\Work\Projects\ncqt\shaders\cube.vert;D:\Work\Projects\ncqt\shaders\cube.geom;D:\Work\Projects\ncqt\shaders\cube.frag;H:\Work\Projects\ncqt\win32\ncqt_shaders.qrc.depends;D:\Work\Projects\ncqt\ncqt_shaders.qrc;"
+					Outputs="H:\Work\Projects\ncqt\win32\qrc_ncqt_shaders.cxx"
+				/>
+			</FileConfiguration>
+		</File>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

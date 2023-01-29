@@ -1,0 +1,99 @@
+Determining if the Q_WS_X11 exist failed with the following output:
+Change Dir: H:/Work/Projects/ncqt/win32/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec189878525
+
+Microsoft (R) Visual Studio Version 9.0.30729.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec189878525, Configuration: Debug Win32 ------
+1>Compiling...
+1>Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 15.00.30729.01 for 80x86
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>cl /Od /I "D:\Work\external\qt-everywhere-opensource-src-4.8.0\include" /D "WIN32" /D "_WINDOWS" /D "_DEBUG" /D "CMAKE_INTDIR=\"Debug\"" /D "_MBCS" /FD /EHsc /RTC1 /MDd /Fo"cmTryCompileExec189878525.dir\Debug\\" /Fd"H:\Work\Projects\ncqt\win32\CMakeFiles\CMakeTmp\Debug/cmTryCompileExec189878525.pdb" /W3 /c /Zi /TP .\CheckSymbolExists.cxx
+1>CheckSymbolExists.cxx
+1>.\CheckSymbolExists.cxx(8) : error C2065: 'Q_WS_X11' : undeclared identifier
+1>Build log was saved at "file://h:\Work\Projects\ncqt\win32\CMakeFiles\CMakeTmp\cmTryCompileExec189878525.dir\Debug\BuildLog.htm"
+1>cmTryCompileExec189878525 - 1 error(s), 0 warning(s)
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========
+
+File H:/Work/Projects/ncqt/win32/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_X11
+  return ((int*)(&Q_WS_X11))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: H:/Work/Projects/ncqt/win32/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec3057630672
+
+Microsoft (R) Visual Studio Version 9.0.30729.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec3057630672, Configuration: Debug Win32 ------
+1>Compiling...
+1>Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 15.00.30729.01 for 80x86
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>cl /Od /I "D:\Work\external\qt-everywhere-opensource-src-4.8.0\include" /D "WIN32" /D "_WINDOWS" /D "_DEBUG" /D "CMAKE_INTDIR=\"Debug\"" /D "_MBCS" /FD /EHsc /RTC1 /MDd /Fo"cmTryCompileExec3057630672.dir\Debug\\" /Fd"H:\Work\Projects\ncqt\win32\CMakeFiles\CMakeTmp\Debug/cmTryCompileExec3057630672.pdb" /W3 /c /Zi /TP .\CheckSymbolExists.cxx
+1>CheckSymbolExists.cxx
+1>.\CheckSymbolExists.cxx(8) : error C2065: 'Q_WS_QWS' : undeclared identifier
+1>Build log was saved at "file://h:\Work\Projects\ncqt\win32\CMakeFiles\CMakeTmp\cmTryCompileExec3057630672.dir\Debug\BuildLog.htm"
+1>cmTryCompileExec3057630672 - 1 error(s), 0 warning(s)
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========
+
+File H:/Work/Projects/ncqt/win32/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: H:/Work/Projects/ncqt/win32/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec2766797947
+
+Microsoft (R) Visual Studio Version 9.0.30729.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec2766797947, Configuration: Debug Win32 ------
+1>Compiling...
+1>Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 15.00.30729.01 for 80x86
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>cl /Od /I "D:\Work\external\qt-everywhere-opensource-src-4.8.0\include" /D "WIN32" /D "_WINDOWS" /D "_DEBUG" /D "CMAKE_INTDIR=\"Debug\"" /D "_MBCS" /FD /EHsc /RTC1 /MDd /Fo"cmTryCompileExec2766797947.dir\Debug\\" /Fd"H:\Work\Projects\ncqt\win32\CMakeFiles\CMakeTmp\Debug/cmTryCompileExec2766797947.pdb" /W3 /c /Zi /TP .\CheckSymbolExists.cxx
+1>CheckSymbolExists.cxx
+1>.\CheckSymbolExists.cxx(8) : error C2065: 'Q_WS_MAC' : undeclared identifier
+1>Build log was saved at "file://h:\Work\Projects\ncqt\win32\CMakeFiles\CMakeTmp\cmTryCompileExec2766797947.dir\Debug\BuildLog.htm"
+1>cmTryCompileExec2766797947 - 1 error(s), 0 warning(s)
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========
+
+File H:/Work/Projects/ncqt/win32/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+

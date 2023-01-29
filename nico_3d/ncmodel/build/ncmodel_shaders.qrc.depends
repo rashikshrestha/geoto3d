@@ -1,0 +1,22 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource>
+
+   <file>shaders/mdl.vert</file>
+   <file>shaders/mdl.frag</file>
+
+   <file>shaders/skp.vert</file>
+   <file>shaders/skp.geom</file>
+   <file>shaders/skp.frag</file>
+
+   <file>shaders/assimp.vert</file>
+   <file>shaders/assimp.geom</file>
+   <file>shaders/assimp.frag</file>
+
+   <file>shaders/gvm.vert</file>
+   <file>shaders/gvm.geom</file>
+   <file>shaders/gvm.glsl</file>
+   <file>shaders/gvm.frag</file>
+   <file>shaders/gvmd.frag</file>
+
+</qresource>
+</RCC>

@@ -1,0 +1,2 @@
+/usr/bin/ar cr lib/libnccodec.a  CMakeFiles/nccodec.dir/src/nccodec.cpp.o
+/usr/bin/ranlib lib/libnccodec.a

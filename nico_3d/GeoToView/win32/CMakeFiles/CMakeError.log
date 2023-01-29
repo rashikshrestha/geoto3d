@@ -1,0 +1,99 @@
+Determining if the Q_WS_X11 exist failed with the following output:
+Change Dir: D:/Work/Projects/GeoToView/win32/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec2333851683
+
+Microsoft (R) Visual Studio Version 9.0.30729.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec2333851683, Configuration: Debug Win32 ------
+1>Compiling...
+1>Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 15.00.30729.01 for 80x86
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>cl /Od /I "D:\Work\external\qt-everywhere-opensource-src-4.8.0\include" /D "WIN32" /D "_WINDOWS" /D "_DEBUG" /D "CMAKE_INTDIR=\"Debug\"" /D "_MBCS" /FD /EHsc /RTC1 /MDd /Fo"cmTryCompileExec2333851683.dir\Debug\\" /Fd"D:\Work\Projects\GeoToView\win32\CMakeFiles\CMakeTmp\Debug/cmTryCompileExec2333851683.pdb" /W3 /c /Zi /TP .\CheckSymbolExists.cxx
+1>CheckSymbolExists.cxx
+1>.\CheckSymbolExists.cxx(8) : error C2065: 'Q_WS_X11' : undeclared identifier
+1>Build log was saved at "file://d:\Work\Projects\GeoToView\win32\CMakeFiles\CMakeTmp\cmTryCompileExec2333851683.dir\Debug\BuildLog.htm"
+1>cmTryCompileExec2333851683 - 1 error(s), 0 warning(s)
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========
+
+File D:/Work/Projects/GeoToView/win32/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_X11
+  return ((int*)(&Q_WS_X11))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: D:/Work/Projects/GeoToView/win32/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec453665386
+
+Microsoft (R) Visual Studio Version 9.0.30729.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec453665386, Configuration: Debug Win32 ------
+1>Compiling...
+1>Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 15.00.30729.01 for 80x86
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>cl /Od /I "D:\Work\external\qt-everywhere-opensource-src-4.8.0\include" /D "WIN32" /D "_WINDOWS" /D "_DEBUG" /D "CMAKE_INTDIR=\"Debug\"" /D "_MBCS" /FD /EHsc /RTC1 /MDd /Fo"cmTryCompileExec453665386.dir\Debug\\" /Fd"D:\Work\Projects\GeoToView\win32\CMakeFiles\CMakeTmp\Debug/cmTryCompileExec453665386.pdb" /W3 /c /Zi /TP .\CheckSymbolExists.cxx
+1>CheckSymbolExists.cxx
+1>.\CheckSymbolExists.cxx(8) : error C2065: 'Q_WS_QWS' : undeclared identifier
+1>Build log was saved at "file://d:\Work\Projects\GeoToView\win32\CMakeFiles\CMakeTmp\cmTryCompileExec453665386.dir\Debug\BuildLog.htm"
+1>cmTryCompileExec453665386 - 1 error(s), 0 warning(s)
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========
+
+File D:/Work/Projects/GeoToView/win32/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: D:/Work/Projects/GeoToView/win32/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MICROS~1.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec1597472393
+
+Microsoft (R) Visual Studio Version 9.0.30729.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec1597472393, Configuration: Debug Win32 ------
+1>Compiling...
+1>Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 15.00.30729.01 for 80x86
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>cl /Od /I "D:\Work\external\qt-everywhere-opensource-src-4.8.0\include" /D "WIN32" /D "_WINDOWS" /D "_DEBUG" /D "CMAKE_INTDIR=\"Debug\"" /D "_MBCS" /FD /EHsc /RTC1 /MDd /Fo"cmTryCompileExec1597472393.dir\Debug\\" /Fd"D:\Work\Projects\GeoToView\win32\CMakeFiles\CMakeTmp\Debug/cmTryCompileExec1597472393.pdb" /W3 /c /Zi /TP .\CheckSymbolExists.cxx
+1>CheckSymbolExists.cxx
+1>.\CheckSymbolExists.cxx(8) : error C2065: 'Q_WS_MAC' : undeclared identifier
+1>Build log was saved at "file://d:\Work\Projects\GeoToView\win32\CMakeFiles\CMakeTmp\cmTryCompileExec1597472393.dir\Debug\BuildLog.htm"
+1>cmTryCompileExec1597472393 - 1 error(s), 0 warning(s)
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========
+
+File D:/Work/Projects/GeoToView/win32/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+

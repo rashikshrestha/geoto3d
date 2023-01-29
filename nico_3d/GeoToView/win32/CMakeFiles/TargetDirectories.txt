@@ -1,0 +1,3 @@
+D:/Work/Projects/GeoToView/win32/CMakeFiles/ALL_BUILD.dir
+D:/Work/Projects/GeoToView/win32/CMakeFiles/GeoToView.dir
+D:/Work/Projects/GeoToView/win32/CMakeFiles/ZERO_CHECK.dir

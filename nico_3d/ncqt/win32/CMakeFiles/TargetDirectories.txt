@@ -1,0 +1,3 @@
+H:/Work/Projects/ncqt/win32/CMakeFiles/ALL_BUILD.dir
+H:/Work/Projects/ncqt/win32/CMakeFiles/ZERO_CHECK.dir
+H:/Work/Projects/ncqt/win32/CMakeFiles/ncqt.dir

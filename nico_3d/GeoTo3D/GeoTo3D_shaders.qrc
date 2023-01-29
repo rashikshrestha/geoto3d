@@ -1,0 +1,55 @@
+<!DOCTYPE RCC><RCC version="1.0">
+ <qresource>
+   <file>shaders/flow/bp_sweep.frag</file>
+   <file>shaders/flow/test_sweep.frag</file>
+   <file>shaders/flow/iter_sweep.frag</file>
+   <file>shaders/flow/grayscale.vert</file>
+   <file>shaders/flow/grayscale.frag</file>
+   <file>shaders/flow/gauss_c1_X.vert</file>
+   <file>shaders/flow/gauss_c1_X.frag</file>
+   <file>shaders/flow/gauss_c1_Y.vert</file>
+   <file>shaders/flow/gauss_c1_Y.frag</file>
+   <file>shaders/flow/gauss_c2_X.vert</file>
+   <file>shaders/flow/gauss_c2_X.frag</file>
+   <file>shaders/flow/gauss_c2_Y.vert</file>
+   <file>shaders/flow/gauss_c2_Y.frag</file>
+   <file>shaders/flow/sub_X.vert</file>
+   <file>shaders/flow/sub_X.frag</file>
+   <file>shaders/flow/sub_Y.vert</file>
+   <file>shaders/flow/sub_Y.frag</file>
+   <file>shaders/flow/edge.vert</file>
+   <file>shaders/flow/edge.frag</file>
+   <file>shaders/flow/delaunay.vert</file>
+   <file>shaders/flow/delaunay.frag</file>
+   <file>shaders/flow/draw_rg.vert</file>
+   <file>shaders/flow/draw_rg.frag</file>
+   <file>shaders/flow/mesh.vert</file>
+   <file>shaders/flow/mesh.frag</file>
+   <file>shaders/flow/warp.vert</file>
+   <file>shaders/flow/warp.frag</file>
+   <file>shaders/flow/gvminit.frag</file>
+
+   <file>shaders/carve/color.vert</file>
+   <file>shaders/carve/vcolor.frag</file>
+   <file>shaders/carve/voxel.glsl</file>
+   <file>shaders/carve/voxel.vert</file>
+   <file>shaders/carve/voxel.geom</file>
+   <file>shaders/carve/voxel.frag</file>
+   <file alias="shaders/gvm.vert">../ncmodel/shaders/gvm.vert</file>
+   <file alias="shaders/gvm.geom">../ncmodel/shaders/gvm.geom</file>
+   <file alias="shaders/gvm.glsl">../ncmodel/shaders/gvm.glsl</file>
+   <file alias="shaders/gvm.frag">../ncmodel/shaders/gvm.frag</file>
+
+   <file>shaders/flow/laplace.vert</file>
+   <file>shaders/flow/laplace.frag</file>
+   <file>shaders/flow/carve.vert</file>
+   <file>shaders/flow/carve.frag</file>
+   <file>shaders/flow/sweep_common.frag</file>
+   <file>shaders/flow/sweep_common.vert</file>
+   <file>shaders/flow/pass1_sweep.frag</file>
+   <file>shaders/flow/pass2_sweep.frag</file>
+   <file>shaders/flow/cd_sweep.frag</file>
+   <file>shaders/flow/mdl_sweep.frag</file>
+
+ </qresource>
+ </RCC>

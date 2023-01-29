@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding = "Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="9.00"
+	Name="ALL_BUILD"
+	ProjectGUID="{DD4412EC-9391-43F6-833C-55176491772C}"
+	Keyword="Win32Proj">
+	<Platforms>
+		<Platform
+			Name="Win32"/>
+	</Platforms>
+	<Configurations>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory="Debug"
+			IntermediateDirectory="ALL_BUILD.dir\Debug"
+			ConfigurationType="10"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="D:\Work\external\qt-everywhere-opensource-src-4.8.0\include;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtOpenGL;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtGui;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtXml;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtNetwork;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtCore;&quot;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include&quot;;D:\Work\Projects\nccommon\..\..\external\glew-1.9.0\include;D:\Work\Projects\nccommon\..\..\external\ffmpeg\win32\include;D:\Work\Projects\nccommon\..\..\external\assimp--3.0.1270\include;D:\Work\Projects\nccommon\..\..\external\ImageMagick-6.8.8;D:\Work\Projects\nccommon\..\..\external\ImageMagick-6.8.8\Magick++\lib;D:\Work\Projects\nccommon\..\..\external\SketchUp-SDK-Win\headers;D:\Work\Projects\nccommon\..\..\external\libpgf\include;D:\Work\Projects\nccommon\..;D:\Work\Projects\nccommon\.;D:\Work\Projects\nccommon\.\inc;D:\Work\Projects\nccommon\.\include;D:\Work\Projects\nccommon\..\libpgf\include;D:\Work\Projects\nccommon\..\nccodec\inc;D:\Work\Projects\nccommon\..\nccommon\include;D:\Work\Projects\nccommon\..\ncqt\include;D:\Work\Projects\nccommon\..\ncqt\style\include;D:\Work\Projects\nccommon\..\ncvoxel\inc;D:\Work\Projects\nccommon\..\nccarve\inc;D:\Work\Projects\nccommon\..\ncflow\inc;"
+				ExceptionHandling="0"
+				PreprocessorDefinitions="QT_OPENGL_LIB;QT_GUI_LIB;QT_XML_LIB;QT_NETWORK_LIB;QT_CORE_LIB;QT_DEBUG;CMAKE_INTDIR=\&quot;Debug\&quot;"
+				AssemblerListingLocation="Debug"
+				ObjectFile="$(IntDir)\"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="D:\Work\external\qt-everywhere-opensource-src-4.8.0\include;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtOpenGL;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtGui;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtXml;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtNetwork;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtCore;&quot;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include&quot;;D:\Work\Projects\nccommon\..\..\external\glew-1.9.0\include;D:\Work\Projects\nccommon\..\..\external\ffmpeg\win32\include;D:\Work\Projects\nccommon\..\..\external\assimp--3.0.1270\include;D:\Work\Projects\nccommon\..\..\external\ImageMagick-6.8.8;D:\Work\Projects\nccommon\..\..\external\ImageMagick-6.8.8\Magick++\lib;D:\Work\Projects\nccommon\..\..\external\SketchUp-SDK-Win\headers;D:\Work\Projects\nccommon\..\..\external\libpgf\include;D:\Work\Projects\nccommon\..;D:\Work\Projects\nccommon\.;D:\Work\Projects\nccommon\.\inc;D:\Work\Projects\nccommon\.\include;D:\Work\Projects\nccommon\..\libpgf\include;D:\Work\Projects\nccommon\..\nccodec\inc;D:\Work\Projects\nccommon\..\nccommon\include;D:\Work\Projects\nccommon\..\ncqt\include;D:\Work\Projects\nccommon\..\ncqt\style\include;D:\Work\Projects\nccommon\..\ncvoxel\inc;D:\Work\Projects\nccommon\..\nccarve\inc;D:\Work\Projects\nccommon\..\ncflow\inc;"
+				PreprocessorDefinitions="QT_OPENGL_LIB;QT_GUI_LIB;QT_XML_LIB;QT_NETWORK_LIB;QT_CORE_LIB;QT_DEBUG;CMAKE_INTDIR=\&quot;Debug\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+				AdditionalIncludeDirectories="D:\Work\external\qt-everywhere-opensource-src-4.8.0\include;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtOpenGL;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtGui;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtXml;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtNetwork;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtCore;&quot;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include&quot;;D:\Work\Projects\nccommon\..\..\external\glew-1.9.0\include;D:\Work\Projects\nccommon\..\..\external\ffmpeg\win32\include;D:\Work\Projects\nccommon\..\..\external\assimp--3.0.1270\include;D:\Work\Projects\nccommon\..\..\external\ImageMagick-6.8.8;D:\Work\Projects\nccommon\..\..\external\ImageMagick-6.8.8\Magick++\lib;D:\Work\Projects\nccommon\..\..\external\SketchUp-SDK-Win\headers;D:\Work\Projects\nccommon\..\..\external\libpgf\include;D:\Work\Projects\nccommon\..;D:\Work\Projects\nccommon\.;D:\Work\Projects\nccommon\.\inc;D:\Work\Projects\nccommon\.\include;D:\Work\Projects\nccommon\..\libpgf\include;D:\Work\Projects\nccommon\..\nccodec\inc;D:\Work\Projects\nccommon\..\nccommon\include;D:\Work\Projects\nccommon\..\ncqt\include;D:\Work\Projects\nccommon\..\ncqt\style\include;D:\Work\Projects\nccommon\..\ncvoxel\inc;D:\Work\Projects\nccommon\..\nccarve\inc;D:\Work\Projects\nccommon\..\ncflow\inc;"
+				MkTypLibCompatible="FALSE"
+				TargetEnvironment="1"
+				GenerateStublessProxies="TRUE"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+		</Configuration>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory="Release"
+			IntermediateDirectory="ALL_BUILD.dir\Release"
+			ConfigurationType="10"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="D:\Work\external\qt-everywhere-opensource-src-4.8.0\include;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtOpenGL;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtGui;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtXml;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtNetwork;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtCore;&quot;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include&quot;;D:\Work\Projects\nccommon\..\..\external\glew-1.9.0\include;D:\Work\Projects\nccommon\..\..\external\ffmpeg\win32\include;D:\Work\Projects\nccommon\..\..\external\assimp--3.0.1270\include;D:\Work\Projects\nccommon\..\..\external\ImageMagick-6.8.8;D:\Work\Projects\nccommon\..\..\external\ImageMagick-6.8.8\Magick++\lib;D:\Work\Projects\nccommon\..\..\external\SketchUp-SDK-Win\headers;D:\Work\Projects\nccommon\..\..\external\libpgf\include;D:\Work\Projects\nccommon\..;D:\Work\Projects\nccommon\.;D:\Work\Projects\nccommon\.\inc;D:\Work\Projects\nccommon\.\include;D:\Work\Projects\nccommon\..\libpgf\include;D:\Work\Projects\nccommon\..\nccodec\inc;D:\Work\Projects\nccommon\..\nccommon\include;D:\Work\Projects\nccommon\..\ncqt\include;D:\Work\Projects\nccommon\..\ncqt\style\include;D:\Work\Projects\nccommon\..\ncvoxel\inc;D:\Work\Projects\nccommon\..\nccarve\inc;D:\Work\Projects\nccommon\..\ncflow\inc;"
+				ExceptionHandling="0"
+				PreprocessorDefinitions="QT_OPENGL_LIB;QT_GUI_LIB;QT_XML_LIB;QT_NETWORK_LIB;QT_CORE_LIB;QT_NO_DEBUG;CMAKE_INTDIR=\&quot;Release\&quot;"
+				AssemblerListingLocation="Release"
+				ObjectFile="$(IntDir)\"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="D:\Work\external\qt-everywhere-opensource-src-4.8.0\include;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtOpenGL;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtGui;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtXml;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtNetwork;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtCore;&quot;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include&quot;;D:\Work\Projects\nccommon\..\..\external\glew-1.9.0\include;D:\Work\Projects\nccommon\..\..\external\ffmpeg\win32\include;D:\Work\Projects\nccommon\..\..\external\assimp--3.0.1270\include;D:\Work\Projects\nccommon\..\..\external\ImageMagick-6.8.8;D:\Work\Projects\nccommon\..\..\external\ImageMagick-6.8.8\Magick++\lib;D:\Work\Projects\nccommon\..\..\external\SketchUp-SDK-Win\headers;D:\Work\Projects\nccommon\..\..\external\libpgf\include;D:\Work\Projects\nccommon\..;D:\Work\Projects\nccommon\.;D:\Work\Projects\nccommon\.\inc;D:\Work\Projects\nccommon\.\include;D:\Work\Projects\nccommon\..\libpgf\include;D:\Work\Projects\nccommon\..\nccodec\inc;D:\Work\Projects\nccommon\..\nccommon\include;D:\Work\Projects\nccommon\..\ncqt\include;D:\Work\Projects\nccommon\..\ncqt\style\include;D:\Work\Projects\nccommon\..\ncvoxel\inc;D:\Work\Projects\nccommon\..\nccarve\inc;D:\Work\Projects\nccommon\..\ncflow\inc;"
+				PreprocessorDefinitions="QT_OPENGL_LIB;QT_GUI_LIB;QT_XML_LIB;QT_NETWORK_LIB;QT_CORE_LIB;QT_NO_DEBUG;CMAKE_INTDIR=\&quot;Release\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+				AdditionalIncludeDirectories="D:\Work\external\qt-everywhere-opensource-src-4.8.0\include;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtOpenGL;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtGui;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtXml;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtNetwork;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtCore;&quot;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include&quot;;D:\Work\Projects\nccommon\..\..\external\glew-1.9.0\include;D:\Work\Projects\nccommon\..\..\external\ffmpeg\win32\include;D:\Work\Projects\nccommon\..\..\external\assimp--3.0.1270\include;D:\Work\Projects\nccommon\..\..\external\ImageMagick-6.8.8;D:\Work\Projects\nccommon\..\..\external\ImageMagick-6.8.8\Magick++\lib;D:\Work\Projects\nccommon\..\..\external\SketchUp-SDK-Win\headers;D:\Work\Projects\nccommon\..\..\external\libpgf\include;D:\Work\Projects\nccommon\..;D:\Work\Projects\nccommon\.;D:\Work\Projects\nccommon\.\inc;D:\Work\Projects\nccommon\.\include;D:\Work\Projects\nccommon\..\libpgf\include;D:\Work\Projects\nccommon\..\nccodec\inc;D:\Work\Projects\nccommon\..\nccommon\include;D:\Work\Projects\nccommon\..\ncqt\include;D:\Work\Projects\nccommon\..\ncqt\style\include;D:\Work\Projects\nccommon\..\ncvoxel\inc;D:\Work\Projects\nccommon\..\nccarve\inc;D:\Work\Projects\nccommon\..\ncflow\inc;"
+				MkTypLibCompatible="FALSE"
+				TargetEnvironment="1"
+				GenerateStublessProxies="TRUE"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+		</Configuration>
+		<Configuration
+			Name="MinSizeRel|Win32"
+			OutputDirectory="MinSizeRel"
+			IntermediateDirectory="ALL_BUILD.dir\MinSizeRel"
+			ConfigurationType="10"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="D:\Work\external\qt-everywhere-opensource-src-4.8.0\include;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtOpenGL;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtGui;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtXml;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtNetwork;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtCore;&quot;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include&quot;;D:\Work\Projects\nccommon\..\..\external\glew-1.9.0\include;D:\Work\Projects\nccommon\..\..\external\ffmpeg\win32\include;D:\Work\Projects\nccommon\..\..\external\assimp--3.0.1270\include;D:\Work\Projects\nccommon\..\..\external\ImageMagick-6.8.8;D:\Work\Projects\nccommon\..\..\external\ImageMagick-6.8.8\Magick++\lib;D:\Work\Projects\nccommon\..\..\external\SketchUp-SDK-Win\headers;D:\Work\Projects\nccommon\..\..\external\libpgf\include;D:\Work\Projects\nccommon\..;D:\Work\Projects\nccommon\.;D:\Work\Projects\nccommon\.\inc;D:\Work\Projects\nccommon\.\include;D:\Work\Projects\nccommon\..\libpgf\include;D:\Work\Projects\nccommon\..\nccodec\inc;D:\Work\Projects\nccommon\..\nccommon\include;D:\Work\Projects\nccommon\..\ncqt\include;D:\Work\Projects\nccommon\..\ncqt\style\include;D:\Work\Projects\nccommon\..\ncvoxel\inc;D:\Work\Projects\nccommon\..\nccarve\inc;D:\Work\Projects\nccommon\..\ncflow\inc;"
+				ExceptionHandling="0"
+				PreprocessorDefinitions="QT_OPENGL_LIB;QT_GUI_LIB;QT_XML_LIB;QT_NETWORK_LIB;QT_CORE_LIB;QT_NO_DEBUG;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"
+				AssemblerListingLocation="MinSizeRel"
+				ObjectFile="$(IntDir)\"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="D:\Work\external\qt-everywhere-opensource-src-4.8.0\include;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtOpenGL;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtGui;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtXml;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtNetwork;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtCore;&quot;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include&quot;;D:\Work\Projects\nccommon\..\..\external\glew-1.9.0\include;D:\Work\Projects\nccommon\..\..\external\ffmpeg\win32\include;D:\Work\Projects\nccommon\..\..\external\assimp--3.0.1270\include;D:\Work\Projects\nccommon\..\..\external\ImageMagick-6.8.8;D:\Work\Projects\nccommon\..\..\external\ImageMagick-6.8.8\Magick++\lib;D:\Work\Projects\nccommon\..\..\external\SketchUp-SDK-Win\headers;D:\Work\Projects\nccommon\..\..\external\libpgf\include;D:\Work\Projects\nccommon\..;D:\Work\Projects\nccommon\.;D:\Work\Projects\nccommon\.\inc;D:\Work\Projects\nccommon\.\include;D:\Work\Projects\nccommon\..\libpgf\include;D:\Work\Projects\nccommon\..\nccodec\inc;D:\Work\Projects\nccommon\..\nccommon\include;D:\Work\Projects\nccommon\..\ncqt\include;D:\Work\Projects\nccommon\..\ncqt\style\include;D:\Work\Projects\nccommon\..\ncvoxel\inc;D:\Work\Projects\nccommon\..\nccarve\inc;D:\Work\Projects\nccommon\..\ncflow\inc;"
+				PreprocessorDefinitions="QT_OPENGL_LIB;QT_GUI_LIB;QT_XML_LIB;QT_NETWORK_LIB;QT_CORE_LIB;QT_NO_DEBUG;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+				AdditionalIncludeDirectories="D:\Work\external\qt-everywhere-opensource-src-4.8.0\include;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtOpenGL;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtGui;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtXml;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtNetwork;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtCore;&quot;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include&quot;;D:\Work\Projects\nccommon\..\..\external\glew-1.9.0\include;D:\Work\Projects\nccommon\..\..\external\ffmpeg\win32\include;D:\Work\Projects\nccommon\..\..\external\assimp--3.0.1270\include;D:\Work\Projects\nccommon\..\..\external\ImageMagick-6.8.8;D:\Work\Projects\nccommon\..\..\external\ImageMagick-6.8.8\Magick++\lib;D:\Work\Projects\nccommon\..\..\external\SketchUp-SDK-Win\headers;D:\Work\Projects\nccommon\..\..\external\libpgf\include;D:\Work\Projects\nccommon\..;D:\Work\Projects\nccommon\.;D:\Work\Projects\nccommon\.\inc;D:\Work\Projects\nccommon\.\include;D:\Work\Projects\nccommon\..\libpgf\include;D:\Work\Projects\nccommon\..\nccodec\inc;D:\Work\Projects\nccommon\..\nccommon\include;D:\Work\Projects\nccommon\..\ncqt\include;D:\Work\Projects\nccommon\..\ncqt\style\include;D:\Work\Projects\nccommon\..\ncvoxel\inc;D:\Work\Projects\nccommon\..\nccarve\inc;D:\Work\Projects\nccommon\..\ncflow\inc;"
+				MkTypLibCompatible="FALSE"
+				TargetEnvironment="1"
+				GenerateStublessProxies="TRUE"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+		</Configuration>
+		<Configuration
+			Name="RelWithDebInfo|Win32"
+			OutputDirectory="RelWithDebInfo"
+			IntermediateDirectory="ALL_BUILD.dir\RelWithDebInfo"
+			ConfigurationType="10"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="D:\Work\external\qt-everywhere-opensource-src-4.8.0\include;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtOpenGL;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtGui;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtXml;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtNetwork;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtCore;&quot;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include&quot;;D:\Work\Projects\nccommon\..\..\external\glew-1.9.0\include;D:\Work\Projects\nccommon\..\..\external\ffmpeg\win32\include;D:\Work\Projects\nccommon\..\..\external\assimp--3.0.1270\include;D:\Work\Projects\nccommon\..\..\external\ImageMagick-6.8.8;D:\Work\Projects\nccommon\..\..\external\ImageMagick-6.8.8\Magick++\lib;D:\Work\Projects\nccommon\..\..\external\SketchUp-SDK-Win\headers;D:\Work\Projects\nccommon\..\..\external\libpgf\include;D:\Work\Projects\nccommon\..;D:\Work\Projects\nccommon\.;D:\Work\Projects\nccommon\.\inc;D:\Work\Projects\nccommon\.\include;D:\Work\Projects\nccommon\..\libpgf\include;D:\Work\Projects\nccommon\..\nccodec\inc;D:\Work\Projects\nccommon\..\nccommon\include;D:\Work\Projects\nccommon\..\ncqt\include;D:\Work\Projects\nccommon\..\ncqt\style\include;D:\Work\Projects\nccommon\..\ncvoxel\inc;D:\Work\Projects\nccommon\..\nccarve\inc;D:\Work\Projects\nccommon\..\ncflow\inc;"
+				ExceptionHandling="0"
+				PreprocessorDefinitions="QT_OPENGL_LIB;QT_GUI_LIB;QT_XML_LIB;QT_NETWORK_LIB;QT_CORE_LIB;QT_NO_DEBUG;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"
+				AssemblerListingLocation="RelWithDebInfo"
+				ObjectFile="$(IntDir)\"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="D:\Work\external\qt-everywhere-opensource-src-4.8.0\include;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtOpenGL;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtGui;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtXml;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtNetwork;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtCore;&quot;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include&quot;;D:\Work\Projects\nccommon\..\..\external\glew-1.9.0\include;D:\Work\Projects\nccommon\..\..\external\ffmpeg\win32\include;D:\Work\Projects\nccommon\..\..\external\assimp--3.0.1270\include;D:\Work\Projects\nccommon\..\..\external\ImageMagick-6.8.8;D:\Work\Projects\nccommon\..\..\external\ImageMagick-6.8.8\Magick++\lib;D:\Work\Projects\nccommon\..\..\external\SketchUp-SDK-Win\headers;D:\Work\Projects\nccommon\..\..\external\libpgf\include;D:\Work\Projects\nccommon\..;D:\Work\Projects\nccommon\.;D:\Work\Projects\nccommon\.\inc;D:\Work\Projects\nccommon\.\include;D:\Work\Projects\nccommon\..\libpgf\include;D:\Work\Projects\nccommon\..\nccodec\inc;D:\Work\Projects\nccommon\..\nccommon\include;D:\Work\Projects\nccommon\..\ncqt\include;D:\Work\Projects\nccommon\..\ncqt\style\include;D:\Work\Projects\nccommon\..\ncvoxel\inc;D:\Work\Projects\nccommon\..\nccarve\inc;D:\Work\Projects\nccommon\..\ncflow\inc;"
+				PreprocessorDefinitions="QT_OPENGL_LIB;QT_GUI_LIB;QT_XML_LIB;QT_NETWORK_LIB;QT_CORE_LIB;QT_NO_DEBUG;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+				AdditionalIncludeDirectories="D:\Work\external\qt-everywhere-opensource-src-4.8.0\include;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtOpenGL;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtGui;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtXml;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtNetwork;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtCore;&quot;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include&quot;;D:\Work\Projects\nccommon\..\..\external\glew-1.9.0\include;D:\Work\Projects\nccommon\..\..\external\ffmpeg\win32\include;D:\Work\Projects\nccommon\..\..\external\assimp--3.0.1270\include;D:\Work\Projects\nccommon\..\..\external\ImageMagick-6.8.8;D:\Work\Projects\nccommon\..\..\external\ImageMagick-6.8.8\Magick++\lib;D:\Work\Projects\nccommon\..\..\external\SketchUp-SDK-Win\headers;D:\Work\Projects\nccommon\..\..\external\libpgf\include;D:\Work\Projects\nccommon\..;D:\Work\Projects\nccommon\.;D:\Work\Projects\nccommon\.\inc;D:\Work\Projects\nccommon\.\include;D:\Work\Projects\nccommon\..\libpgf\include;D:\Work\Projects\nccommon\..\nccodec\inc;D:\Work\Projects\nccommon\..\nccommon\include;D:\Work\Projects\nccommon\..\ncqt\include;D:\Work\Projects\nccommon\..\ncqt\style\include;D:\Work\Projects\nccommon\..\ncvoxel\inc;D:\Work\Projects\nccommon\..\nccarve\inc;D:\Work\Projects\nccommon\..\ncflow\inc;"
+				MkTypLibCompatible="FALSE"
+				TargetEnvironment="1"
+				GenerateStublessProxies="TRUE"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+		</Configuration>
+	</Configurations>
+	<Files>
+			<File
+				RelativePath="D:\Work\Projects\nccommon\win32\CMakeFiles\ALL_BUILD">
+			</File>
+			<File
+				RelativePath="D:\Work\Projects\nccommon\CMakeLists.txt">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule D:/Work/Projects/nccommon/CMakeLists.txt"
+					CommandLine="&quot;C:\Program Files (x86)\CMake 2.8\bin\cmake.exe&quot; -HD:/Work/Projects/nccommon -BD:/Work/Projects/nccommon/win32 --check-stamp-file D:\Work\Projects\nccommon\win32\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="D:\Work\Projects\nccommon\CMakeLists.txt;D:\Work\Projects\nccommon\win32\CMakeFiles\2.8.11.2\CMakeSystem.cmake;D:\Work\Projects\nccommon\win32\CMakeFiles\2.8.11.2\CMakeCCompiler.cmake;D:\Work\Projects\nccommon\win32\CMakeFiles\2.8.11.2\CMakeCXXCompiler.cmake;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-C.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake&quot;;D:\Work\Projects\nccommon\win32\CMakeFiles\2.8.11.2\CMakeRCCompiler.cmake;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-CXX.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake&quot;;D:\Work\Projects\all\CMakeLists.txt;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindOpenGL.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindQt4.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckCXXSymbolExists.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckSymbolExists.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\MacroAddFileDependencies.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Qt4ConfigDependentSettings.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindOpenGL.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Qt4Macros.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\UseQt4.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindCUDA.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake&quot;;D:\Work\Projects\nccommon\CMakeLists.txt;"
+					Outputs="D:\Work\Projects\nccommon\win32\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule D:/Work/Projects/nccommon/CMakeLists.txt"
+					CommandLine="&quot;C:\Program Files (x86)\CMake 2.8\bin\cmake.exe&quot; -HD:/Work/Projects/nccommon -BD:/Work/Projects/nccommon/win32 --check-stamp-file D:\Work\Projects\nccommon\win32\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="D:\Work\Projects\nccommon\CMakeLists.txt;D:\Work\Projects\nccommon\win32\CMakeFiles\2.8.11.2\CMakeSystem.cmake;D:\Work\Projects\nccommon\win32\CMakeFiles\2.8.11.2\CMakeCCompiler.cmake;D:\Work\Projects\nccommon\win32\CMakeFiles\2.8.11.2\CMakeCXXCompiler.cmake;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-C.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake&quot;;D:\Work\Projects\nccommon\win32\CMakeFiles\2.8.11.2\CMakeRCCompiler.cmake;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-CXX.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake&quot;;D:\Work\Projects\all\CMakeLists.txt;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindOpenGL.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindQt4.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckCXXSymbolExists.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckSymbolExists.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\MacroAddFileDependencies.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Qt4ConfigDependentSettings.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindOpenGL.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Qt4Macros.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\UseQt4.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindCUDA.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake&quot;;D:\Work\Projects\nccommon\CMakeLists.txt;"
+					Outputs="D:\Work\Projects\nccommon\win32\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule D:/Work/Projects/nccommon/CMakeLists.txt"
+					CommandLine="&quot;C:\Program Files (x86)\CMake 2.8\bin\cmake.exe&quot; -HD:/Work/Projects/nccommon -BD:/Work/Projects/nccommon/win32 --check-stamp-file D:\Work\Projects\nccommon\win32\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="D:\Work\Projects\nccommon\CMakeLists.txt;D:\Work\Projects\nccommon\win32\CMakeFiles\2.8.11.2\CMakeSystem.cmake;D:\Work\Projects\nccommon\win32\CMakeFiles\2.8.11.2\CMakeCCompiler.cmake;D:\Work\Projects\nccommon\win32\CMakeFiles\2.8.11.2\CMakeCXXCompiler.cmake;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-C.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake&quot;;D:\Work\Projects\nccommon\win32\CMakeFiles\2.8.11.2\CMakeRCCompiler.cmake;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-CXX.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake&quot;;D:\Work\Projects\all\CMakeLists.txt;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindOpenGL.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindQt4.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckCXXSymbolExists.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckSymbolExists.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\MacroAddFileDependencies.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Qt4ConfigDependentSettings.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindOpenGL.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Qt4Macros.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\UseQt4.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindCUDA.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake&quot;;D:\Work\Projects\nccommon\CMakeLists.txt;"
+					Outputs="D:\Work\Projects\nccommon\win32\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule D:/Work/Projects/nccommon/CMakeLists.txt"
+					CommandLine="&quot;C:\Program Files (x86)\CMake 2.8\bin\cmake.exe&quot; -HD:/Work/Projects/nccommon -BD:/Work/Projects/nccommon/win32 --check-stamp-file D:\Work\Projects\nccommon\win32\CMakeFiles\generate.stamp&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="D:\Work\Projects\nccommon\CMakeLists.txt;D:\Work\Projects\nccommon\win32\CMakeFiles\2.8.11.2\CMakeSystem.cmake;D:\Work\Projects\nccommon\win32\CMakeFiles\2.8.11.2\CMakeCCompiler.cmake;D:\Work\Projects\nccommon\win32\CMakeFiles\2.8.11.2\CMakeCXXCompiler.cmake;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-C.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake&quot;;D:\Work\Projects\nccommon\win32\CMakeFiles\2.8.11.2\CMakeRCCompiler.cmake;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-CXX.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake&quot;;D:\Work\Projects\all\CMakeLists.txt;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindOpenGL.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindQt4.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckCXXSymbolExists.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckSymbolExists.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\MacroAddFileDependencies.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Qt4ConfigDependentSettings.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindOpenGL.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Qt4Macros.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\UseQt4.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindCUDA.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake&quot;;D:\Work\Projects\nccommon\CMakeLists.txt;"
+					Outputs="D:\Work\Projects\nccommon\win32\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+			</File>
+		<Filter
+			Name="CMake Rules"
+			Filter="">
+			<File
+				RelativePath="D:\Work\Projects\nccommon\win32\CMakeFiles\ALL_BUILD.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Build all projects"
+					CommandLine=""
+					AdditionalDependencies="D:\Work\Projects\nccommon\win32\CMakeFiles\ALL_BUILD.rule"
+					Outputs="D:\Work\Projects\nccommon\win32\CMakeFiles\ALL_BUILD"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Build all projects"
+					CommandLine=""
+					AdditionalDependencies="D:\Work\Projects\nccommon\win32\CMakeFiles\ALL_BUILD.rule"
+					Outputs="D:\Work\Projects\nccommon\win32\CMakeFiles\ALL_BUILD"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Build all projects"
+					CommandLine=""
+					AdditionalDependencies="D:\Work\Projects\nccommon\win32\CMakeFiles\ALL_BUILD.rule"
+					Outputs="D:\Work\Projects\nccommon\win32\CMakeFiles\ALL_BUILD"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Build all projects"
+					CommandLine=""
+					AdditionalDependencies="D:\Work\Projects\nccommon\win32\CMakeFiles\ALL_BUILD.rule"
+					Outputs="D:\Work\Projects\nccommon\win32\CMakeFiles\ALL_BUILD"/>
+				</FileConfiguration>
+			</File>
+		</Filter>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

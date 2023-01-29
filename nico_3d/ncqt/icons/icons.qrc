@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource prefix="/ncqtvideo">
+   <file alias="play.png"  >crystal_project/32x32/actions/player_play.png</file>
+   <file alias="pause.png" >crystal_project/32x32/actions/player_pause.png</file>
+   <file alias="reset.png" >crystal_project/32x32/actions/quick_restart.png</file>
+   <file alias="start.png" >crystal_project/32x32/actions/player_start.png</file>
+   <file alias="end.png"   >crystal_project/32x32/actions/player_end.png</file>
+   <file alias="record.png">crystal_project/32x32/actions/multimedia2.png</file>
+</qresource>
+<qresource prefix="/ncqtmodel">
+   <file alias="add.png"   >crystal_project/32x32/actions/edit_add.png</file>
+   <file alias="remove.png">crystal_project/32x32/actions/edit_remove.png</file>
+   <file alias="show.png">custom/layer-visible-on.png</file>
+   <file alias="hide.png">custom/layer-visible-off.png</file>
+</qresource>
+<qresource prefix="/ncqtconfigmanager">
+   <file alias="add.png"   >crystal_project/32x32/actions/edit_add.png</file>
+   <file alias="remove.png">crystal_project/32x32/actions/edit_remove.png</file>
+</qresource>
+</RCC>

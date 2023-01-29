@@ -1,0 +1,3 @@
+D:/Work/Projects/ncmodel/win32/CMakeFiles/ALL_BUILD.dir
+D:/Work/Projects/ncmodel/win32/CMakeFiles/ZERO_CHECK.dir
+D:/Work/Projects/ncmodel/win32/CMakeFiles/ncmodel.dir

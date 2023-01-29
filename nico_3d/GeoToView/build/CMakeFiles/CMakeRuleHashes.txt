@@ -1,0 +1,4 @@
+# Hashes of file build rules.
+75d50cd4a0f71b1a1594e4ef88b59f8b inc/moc_mainwindow.cxx
+4ec5556d4d64ddbbd6c845fbc46505c8 inc/moc_ncapp.cxx
+cfb3733ba95402aa246352d6c198e1e8 qrc_geotoview.cxx

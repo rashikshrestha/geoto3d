@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding = "Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="9.00"
+	Name="ZERO_CHECK"
+	ProjectGUID="{667ABF8B-45F9-4EC0-AD84-2A1DEDA951CD}"
+	Keyword="Win32Proj">
+	<Platforms>
+		<Platform
+			Name="Win32"/>
+	</Platforms>
+	<Configurations>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory="Debug"
+			IntermediateDirectory="ZERO_CHECK.dir\Debug"
+			ConfigurationType="10"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="D:\Work\external\qt-everywhere-opensource-src-4.8.0\include;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtOpenGL;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtGui;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtXml;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtNetwork;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtCore;&quot;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include&quot;;D:\Work\Projects\GeoToView\..\..\external\glew-1.9.0\include;D:\Work\Projects\GeoToView\..\..\external\ffmpeg\win32\include;D:\Work\Projects\GeoToView\..\..\external\assimp--3.0.1270\include;D:\Work\Projects\GeoToView\..\..\external\ImageMagick-6.8.6;D:\Work\Projects\GeoToView\..\..\external\ImageMagick-6.8.6\Magick++\lib;D:\Work\Projects\GeoToView\..\..\external\SketchUp-SDK-Win\headers;D:\Work\Projects\GeoToView\..\..\external\libpgf\include;D:\Work\Projects\GeoToView\..;D:\Work\Projects\GeoToView\.;D:\Work\Projects\GeoToView\.\inc;D:\Work\Projects\GeoToView\.\include;D:\Work\Projects\GeoToView\..\libpgf\include;D:\Work\Projects\GeoToView\..\nccodec\inc;D:\Work\Projects\GeoToView\..\nccommon\include;D:\Work\Projects\GeoToView\..\ncqt\include;D:\Work\Projects\GeoToView\..\ncqt\style\include;D:\Work\Projects\GeoToView\..\ncvoxel\inc;D:\Work\Projects\GeoToView\..\nccarve\inc;D:\Work\Projects\GeoToView\..\ncflow\inc;D:\Work\Projects\GeoToView\..\ncmodel\inc;\usr\include\eigen3;\usr\include\pcl-1.7;"
+				ExceptionHandling="0"
+				PreprocessorDefinitions="QT_OPENGL_LIB;QT_GUI_LIB;QT_XML_LIB;QT_NETWORK_LIB;QT_CORE_LIB;APP_NAME=\&quot;GeoToView\&quot;;APP_VERSION=\&quot;1.1\&quot;;QT_DEBUG;CMAKE_INTDIR=\&quot;Debug\&quot;"
+				AssemblerListingLocation="Debug"
+				ObjectFile="$(IntDir)\"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="D:\Work\external\qt-everywhere-opensource-src-4.8.0\include;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtOpenGL;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtGui;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtXml;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtNetwork;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtCore;&quot;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include&quot;;D:\Work\Projects\GeoToView\..\..\external\glew-1.9.0\include;D:\Work\Projects\GeoToView\..\..\external\ffmpeg\win32\include;D:\Work\Projects\GeoToView\..\..\external\assimp--3.0.1270\include;D:\Work\Projects\GeoToView\..\..\external\ImageMagick-6.8.6;D:\Work\Projects\GeoToView\..\..\external\ImageMagick-6.8.6\Magick++\lib;D:\Work\Projects\GeoToView\..\..\external\SketchUp-SDK-Win\headers;D:\Work\Projects\GeoToView\..\..\external\libpgf\include;D:\Work\Projects\GeoToView\..;D:\Work\Projects\GeoToView\.;D:\Work\Projects\GeoToView\.\inc;D:\Work\Projects\GeoToView\.\include;D:\Work\Projects\GeoToView\..\libpgf\include;D:\Work\Projects\GeoToView\..\nccodec\inc;D:\Work\Projects\GeoToView\..\nccommon\include;D:\Work\Projects\GeoToView\..\ncqt\include;D:\Work\Projects\GeoToView\..\ncqt\style\include;D:\Work\Projects\GeoToView\..\ncvoxel\inc;D:\Work\Projects\GeoToView\..\nccarve\inc;D:\Work\Projects\GeoToView\..\ncflow\inc;D:\Work\Projects\GeoToView\..\ncmodel\inc;\usr\include\eigen3;\usr\include\pcl-1.7;"
+				PreprocessorDefinitions="QT_OPENGL_LIB;QT_GUI_LIB;QT_XML_LIB;QT_NETWORK_LIB;QT_CORE_LIB;APP_NAME=\&quot;GeoToView\&quot;;APP_VERSION=\&quot;1.1\&quot;;QT_DEBUG;CMAKE_INTDIR=\&quot;Debug\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+				AdditionalIncludeDirectories="D:\Work\external\qt-everywhere-opensource-src-4.8.0\include;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtOpenGL;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtGui;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtXml;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtNetwork;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtCore;&quot;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include&quot;;D:\Work\Projects\GeoToView\..\..\external\glew-1.9.0\include;D:\Work\Projects\GeoToView\..\..\external\ffmpeg\win32\include;D:\Work\Projects\GeoToView\..\..\external\assimp--3.0.1270\include;D:\Work\Projects\GeoToView\..\..\external\ImageMagick-6.8.6;D:\Work\Projects\GeoToView\..\..\external\ImageMagick-6.8.6\Magick++\lib;D:\Work\Projects\GeoToView\..\..\external\SketchUp-SDK-Win\headers;D:\Work\Projects\GeoToView\..\..\external\libpgf\include;D:\Work\Projects\GeoToView\..;D:\Work\Projects\GeoToView\.;D:\Work\Projects\GeoToView\.\inc;D:\Work\Projects\GeoToView\.\include;D:\Work\Projects\GeoToView\..\libpgf\include;D:\Work\Projects\GeoToView\..\nccodec\inc;D:\Work\Projects\GeoToView\..\nccommon\include;D:\Work\Projects\GeoToView\..\ncqt\include;D:\Work\Projects\GeoToView\..\ncqt\style\include;D:\Work\Projects\GeoToView\..\ncvoxel\inc;D:\Work\Projects\GeoToView\..\nccarve\inc;D:\Work\Projects\GeoToView\..\ncflow\inc;D:\Work\Projects\GeoToView\..\ncmodel\inc;\usr\include\eigen3;\usr\include\pcl-1.7;"
+				MkTypLibCompatible="FALSE"
+				TargetEnvironment="1"
+				GenerateStublessProxies="TRUE"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+		</Configuration>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory="Release"
+			IntermediateDirectory="ZERO_CHECK.dir\Release"
+			ConfigurationType="10"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="D:\Work\external\qt-everywhere-opensource-src-4.8.0\include;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtOpenGL;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtGui;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtXml;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtNetwork;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtCore;&quot;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include&quot;;D:\Work\Projects\GeoToView\..\..\external\glew-1.9.0\include;D:\Work\Projects\GeoToView\..\..\external\ffmpeg\win32\include;D:\Work\Projects\GeoToView\..\..\external\assimp--3.0.1270\include;D:\Work\Projects\GeoToView\..\..\external\ImageMagick-6.8.6;D:\Work\Projects\GeoToView\..\..\external\ImageMagick-6.8.6\Magick++\lib;D:\Work\Projects\GeoToView\..\..\external\SketchUp-SDK-Win\headers;D:\Work\Projects\GeoToView\..\..\external\libpgf\include;D:\Work\Projects\GeoToView\..;D:\Work\Projects\GeoToView\.;D:\Work\Projects\GeoToView\.\inc;D:\Work\Projects\GeoToView\.\include;D:\Work\Projects\GeoToView\..\libpgf\include;D:\Work\Projects\GeoToView\..\nccodec\inc;D:\Work\Projects\GeoToView\..\nccommon\include;D:\Work\Projects\GeoToView\..\ncqt\include;D:\Work\Projects\GeoToView\..\ncqt\style\include;D:\Work\Projects\GeoToView\..\ncvoxel\inc;D:\Work\Projects\GeoToView\..\nccarve\inc;D:\Work\Projects\GeoToView\..\ncflow\inc;D:\Work\Projects\GeoToView\..\ncmodel\inc;\usr\include\eigen3;\usr\include\pcl-1.7;"
+				ExceptionHandling="0"
+				PreprocessorDefinitions="QT_OPENGL_LIB;QT_GUI_LIB;QT_XML_LIB;QT_NETWORK_LIB;QT_CORE_LIB;APP_NAME=\&quot;GeoToView\&quot;;APP_VERSION=\&quot;1.1\&quot;;QT_NO_DEBUG;CMAKE_INTDIR=\&quot;Release\&quot;"
+				AssemblerListingLocation="Release"
+				ObjectFile="$(IntDir)\"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="D:\Work\external\qt-everywhere-opensource-src-4.8.0\include;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtOpenGL;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtGui;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtXml;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtNetwork;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtCore;&quot;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include&quot;;D:\Work\Projects\GeoToView\..\..\external\glew-1.9.0\include;D:\Work\Projects\GeoToView\..\..\external\ffmpeg\win32\include;D:\Work\Projects\GeoToView\..\..\external\assimp--3.0.1270\include;D:\Work\Projects\GeoToView\..\..\external\ImageMagick-6.8.6;D:\Work\Projects\GeoToView\..\..\external\ImageMagick-6.8.6\Magick++\lib;D:\Work\Projects\GeoToView\..\..\external\SketchUp-SDK-Win\headers;D:\Work\Projects\GeoToView\..\..\external\libpgf\include;D:\Work\Projects\GeoToView\..;D:\Work\Projects\GeoToView\.;D:\Work\Projects\GeoToView\.\inc;D:\Work\Projects\GeoToView\.\include;D:\Work\Projects\GeoToView\..\libpgf\include;D:\Work\Projects\GeoToView\..\nccodec\inc;D:\Work\Projects\GeoToView\..\nccommon\include;D:\Work\Projects\GeoToView\..\ncqt\include;D:\Work\Projects\GeoToView\..\ncqt\style\include;D:\Work\Projects\GeoToView\..\ncvoxel\inc;D:\Work\Projects\GeoToView\..\nccarve\inc;D:\Work\Projects\GeoToView\..\ncflow\inc;D:\Work\Projects\GeoToView\..\ncmodel\inc;\usr\include\eigen3;\usr\include\pcl-1.7;"
+				PreprocessorDefinitions="QT_OPENGL_LIB;QT_GUI_LIB;QT_XML_LIB;QT_NETWORK_LIB;QT_CORE_LIB;APP_NAME=\&quot;GeoToView\&quot;;APP_VERSION=\&quot;1.1\&quot;;QT_NO_DEBUG;CMAKE_INTDIR=\&quot;Release\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+				AdditionalIncludeDirectories="D:\Work\external\qt-everywhere-opensource-src-4.8.0\include;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtOpenGL;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtGui;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtXml;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtNetwork;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtCore;&quot;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include&quot;;D:\Work\Projects\GeoToView\..\..\external\glew-1.9.0\include;D:\Work\Projects\GeoToView\..\..\external\ffmpeg\win32\include;D:\Work\Projects\GeoToView\..\..\external\assimp--3.0.1270\include;D:\Work\Projects\GeoToView\..\..\external\ImageMagick-6.8.6;D:\Work\Projects\GeoToView\..\..\external\ImageMagick-6.8.6\Magick++\lib;D:\Work\Projects\GeoToView\..\..\external\SketchUp-SDK-Win\headers;D:\Work\Projects\GeoToView\..\..\external\libpgf\include;D:\Work\Projects\GeoToView\..;D:\Work\Projects\GeoToView\.;D:\Work\Projects\GeoToView\.\inc;D:\Work\Projects\GeoToView\.\include;D:\Work\Projects\GeoToView\..\libpgf\include;D:\Work\Projects\GeoToView\..\nccodec\inc;D:\Work\Projects\GeoToView\..\nccommon\include;D:\Work\Projects\GeoToView\..\ncqt\include;D:\Work\Projects\GeoToView\..\ncqt\style\include;D:\Work\Projects\GeoToView\..\ncvoxel\inc;D:\Work\Projects\GeoToView\..\nccarve\inc;D:\Work\Projects\GeoToView\..\ncflow\inc;D:\Work\Projects\GeoToView\..\ncmodel\inc;\usr\include\eigen3;\usr\include\pcl-1.7;"
+				MkTypLibCompatible="FALSE"
+				TargetEnvironment="1"
+				GenerateStublessProxies="TRUE"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+		</Configuration>
+		<Configuration
+			Name="MinSizeRel|Win32"
+			OutputDirectory="MinSizeRel"
+			IntermediateDirectory="ZERO_CHECK.dir\MinSizeRel"
+			ConfigurationType="10"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="D:\Work\external\qt-everywhere-opensource-src-4.8.0\include;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtOpenGL;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtGui;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtXml;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtNetwork;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtCore;&quot;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include&quot;;D:\Work\Projects\GeoToView\..\..\external\glew-1.9.0\include;D:\Work\Projects\GeoToView\..\..\external\ffmpeg\win32\include;D:\Work\Projects\GeoToView\..\..\external\assimp--3.0.1270\include;D:\Work\Projects\GeoToView\..\..\external\ImageMagick-6.8.6;D:\Work\Projects\GeoToView\..\..\external\ImageMagick-6.8.6\Magick++\lib;D:\Work\Projects\GeoToView\..\..\external\SketchUp-SDK-Win\headers;D:\Work\Projects\GeoToView\..\..\external\libpgf\include;D:\Work\Projects\GeoToView\..;D:\Work\Projects\GeoToView\.;D:\Work\Projects\GeoToView\.\inc;D:\Work\Projects\GeoToView\.\include;D:\Work\Projects\GeoToView\..\libpgf\include;D:\Work\Projects\GeoToView\..\nccodec\inc;D:\Work\Projects\GeoToView\..\nccommon\include;D:\Work\Projects\GeoToView\..\ncqt\include;D:\Work\Projects\GeoToView\..\ncqt\style\include;D:\Work\Projects\GeoToView\..\ncvoxel\inc;D:\Work\Projects\GeoToView\..\nccarve\inc;D:\Work\Projects\GeoToView\..\ncflow\inc;D:\Work\Projects\GeoToView\..\ncmodel\inc;\usr\include\eigen3;\usr\include\pcl-1.7;"
+				ExceptionHandling="0"
+				PreprocessorDefinitions="QT_OPENGL_LIB;QT_GUI_LIB;QT_XML_LIB;QT_NETWORK_LIB;QT_CORE_LIB;APP_NAME=\&quot;GeoToView\&quot;;APP_VERSION=\&quot;1.1\&quot;;QT_NO_DEBUG;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"
+				AssemblerListingLocation="MinSizeRel"
+				ObjectFile="$(IntDir)\"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="D:\Work\external\qt-everywhere-opensource-src-4.8.0\include;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtOpenGL;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtGui;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtXml;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtNetwork;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtCore;&quot;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include&quot;;D:\Work\Projects\GeoToView\..\..\external\glew-1.9.0\include;D:\Work\Projects\GeoToView\..\..\external\ffmpeg\win32\include;D:\Work\Projects\GeoToView\..\..\external\assimp--3.0.1270\include;D:\Work\Projects\GeoToView\..\..\external\ImageMagick-6.8.6;D:\Work\Projects\GeoToView\..\..\external\ImageMagick-6.8.6\Magick++\lib;D:\Work\Projects\GeoToView\..\..\external\SketchUp-SDK-Win\headers;D:\Work\Projects\GeoToView\..\..\external\libpgf\include;D:\Work\Projects\GeoToView\..;D:\Work\Projects\GeoToView\.;D:\Work\Projects\GeoToView\.\inc;D:\Work\Projects\GeoToView\.\include;D:\Work\Projects\GeoToView\..\libpgf\include;D:\Work\Projects\GeoToView\..\nccodec\inc;D:\Work\Projects\GeoToView\..\nccommon\include;D:\Work\Projects\GeoToView\..\ncqt\include;D:\Work\Projects\GeoToView\..\ncqt\style\include;D:\Work\Projects\GeoToView\..\ncvoxel\inc;D:\Work\Projects\GeoToView\..\nccarve\inc;D:\Work\Projects\GeoToView\..\ncflow\inc;D:\Work\Projects\GeoToView\..\ncmodel\inc;\usr\include\eigen3;\usr\include\pcl-1.7;"
+				PreprocessorDefinitions="QT_OPENGL_LIB;QT_GUI_LIB;QT_XML_LIB;QT_NETWORK_LIB;QT_CORE_LIB;APP_NAME=\&quot;GeoToView\&quot;;APP_VERSION=\&quot;1.1\&quot;;QT_NO_DEBUG;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+				AdditionalIncludeDirectories="D:\Work\external\qt-everywhere-opensource-src-4.8.0\include;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtOpenGL;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtGui;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtXml;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtNetwork;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtCore;&quot;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include&quot;;D:\Work\Projects\GeoToView\..\..\external\glew-1.9.0\include;D:\Work\Projects\GeoToView\..\..\external\ffmpeg\win32\include;D:\Work\Projects\GeoToView\..\..\external\assimp--3.0.1270\include;D:\Work\Projects\GeoToView\..\..\external\ImageMagick-6.8.6;D:\Work\Projects\GeoToView\..\..\external\ImageMagick-6.8.6\Magick++\lib;D:\Work\Projects\GeoToView\..\..\external\SketchUp-SDK-Win\headers;D:\Work\Projects\GeoToView\..\..\external\libpgf\include;D:\Work\Projects\GeoToView\..;D:\Work\Projects\GeoToView\.;D:\Work\Projects\GeoToView\.\inc;D:\Work\Projects\GeoToView\.\include;D:\Work\Projects\GeoToView\..\libpgf\include;D:\Work\Projects\GeoToView\..\nccodec\inc;D:\Work\Projects\GeoToView\..\nccommon\include;D:\Work\Projects\GeoToView\..\ncqt\include;D:\Work\Projects\GeoToView\..\ncqt\style\include;D:\Work\Projects\GeoToView\..\ncvoxel\inc;D:\Work\Projects\GeoToView\..\nccarve\inc;D:\Work\Projects\GeoToView\..\ncflow\inc;D:\Work\Projects\GeoToView\..\ncmodel\inc;\usr\include\eigen3;\usr\include\pcl-1.7;"
+				MkTypLibCompatible="FALSE"
+				TargetEnvironment="1"
+				GenerateStublessProxies="TRUE"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+		</Configuration>
+		<Configuration
+			Name="RelWithDebInfo|Win32"
+			OutputDirectory="RelWithDebInfo"
+			IntermediateDirectory="ZERO_CHECK.dir\RelWithDebInfo"
+			ConfigurationType="10"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="D:\Work\external\qt-everywhere-opensource-src-4.8.0\include;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtOpenGL;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtGui;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtXml;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtNetwork;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtCore;&quot;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include&quot;;D:\Work\Projects\GeoToView\..\..\external\glew-1.9.0\include;D:\Work\Projects\GeoToView\..\..\external\ffmpeg\win32\include;D:\Work\Projects\GeoToView\..\..\external\assimp--3.0.1270\include;D:\Work\Projects\GeoToView\..\..\external\ImageMagick-6.8.6;D:\Work\Projects\GeoToView\..\..\external\ImageMagick-6.8.6\Magick++\lib;D:\Work\Projects\GeoToView\..\..\external\SketchUp-SDK-Win\headers;D:\Work\Projects\GeoToView\..\..\external\libpgf\include;D:\Work\Projects\GeoToView\..;D:\Work\Projects\GeoToView\.;D:\Work\Projects\GeoToView\.\inc;D:\Work\Projects\GeoToView\.\include;D:\Work\Projects\GeoToView\..\libpgf\include;D:\Work\Projects\GeoToView\..\nccodec\inc;D:\Work\Projects\GeoToView\..\nccommon\include;D:\Work\Projects\GeoToView\..\ncqt\include;D:\Work\Projects\GeoToView\..\ncqt\style\include;D:\Work\Projects\GeoToView\..\ncvoxel\inc;D:\Work\Projects\GeoToView\..\nccarve\inc;D:\Work\Projects\GeoToView\..\ncflow\inc;D:\Work\Projects\GeoToView\..\ncmodel\inc;\usr\include\eigen3;\usr\include\pcl-1.7;"
+				ExceptionHandling="0"
+				PreprocessorDefinitions="QT_OPENGL_LIB;QT_GUI_LIB;QT_XML_LIB;QT_NETWORK_LIB;QT_CORE_LIB;APP_NAME=\&quot;GeoToView\&quot;;APP_VERSION=\&quot;1.1\&quot;;QT_NO_DEBUG;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"
+				AssemblerListingLocation="RelWithDebInfo"
+				ObjectFile="$(IntDir)\"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="D:\Work\external\qt-everywhere-opensource-src-4.8.0\include;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtOpenGL;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtGui;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtXml;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtNetwork;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtCore;&quot;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include&quot;;D:\Work\Projects\GeoToView\..\..\external\glew-1.9.0\include;D:\Work\Projects\GeoToView\..\..\external\ffmpeg\win32\include;D:\Work\Projects\GeoToView\..\..\external\assimp--3.0.1270\include;D:\Work\Projects\GeoToView\..\..\external\ImageMagick-6.8.6;D:\Work\Projects\GeoToView\..\..\external\ImageMagick-6.8.6\Magick++\lib;D:\Work\Projects\GeoToView\..\..\external\SketchUp-SDK-Win\headers;D:\Work\Projects\GeoToView\..\..\external\libpgf\include;D:\Work\Projects\GeoToView\..;D:\Work\Projects\GeoToView\.;D:\Work\Projects\GeoToView\.\inc;D:\Work\Projects\GeoToView\.\include;D:\Work\Projects\GeoToView\..\libpgf\include;D:\Work\Projects\GeoToView\..\nccodec\inc;D:\Work\Projects\GeoToView\..\nccommon\include;D:\Work\Projects\GeoToView\..\ncqt\include;D:\Work\Projects\GeoToView\..\ncqt\style\include;D:\Work\Projects\GeoToView\..\ncvoxel\inc;D:\Work\Projects\GeoToView\..\nccarve\inc;D:\Work\Projects\GeoToView\..\ncflow\inc;D:\Work\Projects\GeoToView\..\ncmodel\inc;\usr\include\eigen3;\usr\include\pcl-1.7;"
+				PreprocessorDefinitions="QT_OPENGL_LIB;QT_GUI_LIB;QT_XML_LIB;QT_NETWORK_LIB;QT_CORE_LIB;APP_NAME=\&quot;GeoToView\&quot;;APP_VERSION=\&quot;1.1\&quot;;QT_NO_DEBUG;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+				AdditionalIncludeDirectories="D:\Work\external\qt-everywhere-opensource-src-4.8.0\include;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtOpenGL;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtGui;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtXml;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtNetwork;D:\Work\external\qt-everywhere-opensource-src-4.8.0\include\QtCore;&quot;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include&quot;;D:\Work\Projects\GeoToView\..\..\external\glew-1.9.0\include;D:\Work\Projects\GeoToView\..\..\external\ffmpeg\win32\include;D:\Work\Projects\GeoToView\..\..\external\assimp--3.0.1270\include;D:\Work\Projects\GeoToView\..\..\external\ImageMagick-6.8.6;D:\Work\Projects\GeoToView\..\..\external\ImageMagick-6.8.6\Magick++\lib;D:\Work\Projects\GeoToView\..\..\external\SketchUp-SDK-Win\headers;D:\Work\Projects\GeoToView\..\..\external\libpgf\include;D:\Work\Projects\GeoToView\..;D:\Work\Projects\GeoToView\.;D:\Work\Projects\GeoToView\.\inc;D:\Work\Projects\GeoToView\.\include;D:\Work\Projects\GeoToView\..\libpgf\include;D:\Work\Projects\GeoToView\..\nccodec\inc;D:\Work\Projects\GeoToView\..\nccommon\include;D:\Work\Projects\GeoToView\..\ncqt\include;D:\Work\Projects\GeoToView\..\ncqt\style\include;D:\Work\Projects\GeoToView\..\ncvoxel\inc;D:\Work\Projects\GeoToView\..\nccarve\inc;D:\Work\Projects\GeoToView\..\ncflow\inc;D:\Work\Projects\GeoToView\..\ncmodel\inc;\usr\include\eigen3;\usr\include\pcl-1.7;"
+				MkTypLibCompatible="FALSE"
+				TargetEnvironment="1"
+				GenerateStublessProxies="TRUE"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+		</Configuration>
+	</Configurations>
+	<Files>
+			<File
+				RelativePath="D:\Work\Projects\GeoToView\win32\CMakeFiles\ZERO_CHECK">
+			</File>
+		<Filter
+			Name="CMake Rules"
+			Filter="">
+			<File
+				RelativePath="D:\Work\Projects\GeoToView\win32\CMakeFiles\generate.stamp.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Checking Build System"
+					CommandLine="&quot;C:\Program Files (x86)\CMake 2.8\bin\cmake.exe&quot; -HD:/Work/Projects/GeoToView -BD:/Work/Projects/GeoToView/win32 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file &quot;$(SolutionPath)&quot;&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckCXXSymbolExists.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckSymbolExists.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindCUDA.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindOpenGL.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindQt4.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\MacroAddFileDependencies.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-C.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-CXX.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Qt4ConfigDependentSettings.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Qt4Macros.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\UseQt4.cmake&quot;;D:\Work\Projects\GeoToView\CMakeLists.txt;D:\Work\Projects\GeoToView\geotoview.qrc;D:\Work\Projects\GeoToView\win32\CMakeFiles\2.8.11.2\CMakeCCompiler.cmake;D:\Work\Projects\GeoToView\win32\CMakeFiles\2.8.11.2\CMakeCXXCompiler.cmake;D:\Work\Projects\GeoToView\win32\CMakeFiles\2.8.11.2\CMakeRCCompiler.cmake;D:\Work\Projects\GeoToView\win32\CMakeFiles\2.8.11.2\CMakeSystem.cmake;D:\Work\Projects\all\CMakeLists.txt;"
+					Outputs="D:\Work\Projects\GeoToView\win32\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Checking Build System"
+					CommandLine="&quot;C:\Program Files (x86)\CMake 2.8\bin\cmake.exe&quot; -HD:/Work/Projects/GeoToView -BD:/Work/Projects/GeoToView/win32 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file &quot;$(SolutionPath)&quot;&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckCXXSymbolExists.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckSymbolExists.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindCUDA.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindOpenGL.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindQt4.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\MacroAddFileDependencies.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-C.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-CXX.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Qt4ConfigDependentSettings.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Qt4Macros.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\UseQt4.cmake&quot;;D:\Work\Projects\GeoToView\CMakeLists.txt;D:\Work\Projects\GeoToView\geotoview.qrc;D:\Work\Projects\GeoToView\win32\CMakeFiles\2.8.11.2\CMakeCCompiler.cmake;D:\Work\Projects\GeoToView\win32\CMakeFiles\2.8.11.2\CMakeCXXCompiler.cmake;D:\Work\Projects\GeoToView\win32\CMakeFiles\2.8.11.2\CMakeRCCompiler.cmake;D:\Work\Projects\GeoToView\win32\CMakeFiles\2.8.11.2\CMakeSystem.cmake;D:\Work\Projects\all\CMakeLists.txt;"
+					Outputs="D:\Work\Projects\GeoToView\win32\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Checking Build System"
+					CommandLine="&quot;C:\Program Files (x86)\CMake 2.8\bin\cmake.exe&quot; -HD:/Work/Projects/GeoToView -BD:/Work/Projects/GeoToView/win32 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file &quot;$(SolutionPath)&quot;&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckCXXSymbolExists.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckSymbolExists.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindCUDA.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindOpenGL.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindQt4.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\MacroAddFileDependencies.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-C.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-CXX.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Qt4ConfigDependentSettings.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Qt4Macros.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\UseQt4.cmake&quot;;D:\Work\Projects\GeoToView\CMakeLists.txt;D:\Work\Projects\GeoToView\geotoview.qrc;D:\Work\Projects\GeoToView\win32\CMakeFiles\2.8.11.2\CMakeCCompiler.cmake;D:\Work\Projects\GeoToView\win32\CMakeFiles\2.8.11.2\CMakeCXXCompiler.cmake;D:\Work\Projects\GeoToView\win32\CMakeFiles\2.8.11.2\CMakeRCCompiler.cmake;D:\Work\Projects\GeoToView\win32\CMakeFiles\2.8.11.2\CMakeSystem.cmake;D:\Work\Projects\all\CMakeLists.txt;"
+					Outputs="D:\Work\Projects\GeoToView\win32\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Checking Build System"
+					CommandLine="&quot;C:\Program Files (x86)\CMake 2.8\bin\cmake.exe&quot; -HD:/Work/Projects/GeoToView -BD:/Work/Projects/GeoToView/win32 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file &quot;$(SolutionPath)&quot;&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeParseArguments.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckCXXSymbolExists.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckSymbolExists.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindCUDA.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindOpenGL.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageHandleStandardArgs.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPackageMessage.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindQt4.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\MacroAddFileDependencies.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-C.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC-CXX.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-MSVC.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Qt4ConfigDependentSettings.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Qt4Macros.cmake&quot;;&quot;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\UseQt4.cmake&quot;;D:\Work\Projects\GeoToView\CMakeLists.txt;D:\Work\Projects\GeoToView\geotoview.qrc;D:\Work\Projects\GeoToView\win32\CMakeFiles\2.8.11.2\CMakeCCompiler.cmake;D:\Work\Projects\GeoToView\win32\CMakeFiles\2.8.11.2\CMakeCXXCompiler.cmake;D:\Work\Projects\GeoToView\win32\CMakeFiles\2.8.11.2\CMakeRCCompiler.cmake;D:\Work\Projects\GeoToView\win32\CMakeFiles\2.8.11.2\CMakeSystem.cmake;D:\Work\Projects\all\CMakeLists.txt;"
+					Outputs="D:\Work\Projects\GeoToView\win32\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="D:\Work\Projects\GeoToView\win32\CMakeFiles\ZERO_CHECK.rule">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description=""
+					CommandLine=""
+					AdditionalDependencies="D:\Work\Projects\GeoToView\win32\CMakeFiles\ZERO_CHECK.rule"
+					Outputs="D:\Work\Projects\GeoToView\win32\CMakeFiles\ZERO_CHECK"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description=""
+					CommandLine=""
+					AdditionalDependencies="D:\Work\Projects\GeoToView\win32\CMakeFiles\ZERO_CHECK.rule"
+					Outputs="D:\Work\Projects\GeoToView\win32\CMakeFiles\ZERO_CHECK"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description=""
+					CommandLine=""
+					AdditionalDependencies="D:\Work\Projects\GeoToView\win32\CMakeFiles\ZERO_CHECK.rule"
+					Outputs="D:\Work\Projects\GeoToView\win32\CMakeFiles\ZERO_CHECK"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description=""
+					CommandLine=""
+					AdditionalDependencies="D:\Work\Projects\GeoToView\win32\CMakeFiles\ZERO_CHECK.rule"
+					Outputs="D:\Work\Projects\GeoToView\win32\CMakeFiles\ZERO_CHECK"/>
+				</FileConfiguration>
+			</File>
+		</Filter>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

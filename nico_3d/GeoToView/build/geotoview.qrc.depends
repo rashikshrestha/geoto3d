@@ -1,0 +1,16 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource>
+   <file>shaders/ball.vert</file>
+   <file>shaders/ball.geom</file>
+   <file>shaders/ball.frag</file>
+   <file>shaders/cylinder.vert</file>
+   <file>shaders/cylinder.geom</file>
+   <file>shaders/cylinder.frag</file>
+   <file>shaders/stereo.vert</file>
+   <file>shaders/stereo.frag</file>
+   <file>shaders/blit.vert</file>
+   <file>shaders/blit.frag</file>
+
+   <file>style/style.qss</file>
+</qresource>
+</RCC>

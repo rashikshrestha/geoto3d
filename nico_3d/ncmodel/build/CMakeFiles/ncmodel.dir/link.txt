@@ -1,0 +1,2 @@
+/usr/bin/ar cr lib/libncmodel.a  CMakeFiles/ncmodel.dir/src/ncmodel.cpp.o CMakeFiles/ncmodel.dir/src/ncassimp.cpp.o CMakeFiles/ncmodel.dir/src/ncmdl.cpp.o CMakeFiles/ncmodel.dir/src/ncgvm.cpp.o CMakeFiles/ncmodel.dir/qrc_ncmodel_shaders.cxx.o
+/usr/bin/ranlib lib/libncmodel.a
